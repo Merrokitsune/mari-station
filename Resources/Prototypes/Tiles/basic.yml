@@ -52,6 +52,7 @@
   parent: BaseStationTile
   name: tiles-steel-floor-offset
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-offset.png # Mari
+  variants: 4 # Mari - sprite has 4 variants.
   itemDrop: FloorTileItemSteelOffset
 
 - type: tile
@@ -157,6 +158,7 @@
   id: FloorWhiteVerticalSlatsBordered
   name: tiles-white-floor-vertical-slats-bordered
   sprite: /Textures/_Maristation/Tiles/Basic/White/white-vertical-slats.png # Mari
+  variants: 4 # Mari - sprite has 4 variants.
   itemDrop: FloorTileItemWhiteVerticalSlatsBordered
 
 - type: tile
@@ -164,6 +166,7 @@
   id: FloorWhiteHorizontalSlatsBordered
   name: tiles-white-floor-horizontal-slats-bordered
   sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-slats.png # Mari
+  variants: 4 # Mari - sprite has 4 variants.
   itemDrop: FloorTileItemWhiteHorizontalSlatsBordered
 
 - type: tile
@@ -232,6 +235,7 @@
   parent: BaseStationTile
   name: tiles-white-floor-offset
   sprite: /Textures/_Maristation/Tiles/Basic/White/white-offset.png # Mari
+  variants: 4 # Mari - sprite has 4 variants.
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemWhiteOffset
@@ -274,6 +278,7 @@
   id: FloorDarkVerticalSlatsBordered
   name: tiles-dark-floor-vertical-slats-bordered
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-vertical-slats.png # Mari
+  variants: 4 # Mari - sprite has 4 variants.
   itemDrop: FloorTileItemDarkVerticalSlatsBordered
 
 - type: tile
@@ -281,6 +286,7 @@
   id: FloorDarkHorizontalSlatsBordered
   name: tiles-dark-floor-horizontal-slats-bordered
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-horizontal-slats.png # Mari
+  variants: 4 # Mari - sprite has 4 variants.
   itemDrop: FloorTileItemDarkHorizontalSlatsBordered
 
 - type: tile
@@ -338,6 +344,7 @@
   parent: BaseStationTile
   name: tiles-techmaint-floor-dark
   sprite: /Textures/Tiles/Basic/Dark/dark-maint.png
+  variants: 4 # Mari - sprite has 4 variants.
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemTechmaintDark
@@ -358,6 +365,7 @@
   parent: BaseStationTile
   name: tiles-dark-floor-offset
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-offset.png # Mari
+  variants: 4 # Mari - sprite has 4 variants.
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemDarkOffset
