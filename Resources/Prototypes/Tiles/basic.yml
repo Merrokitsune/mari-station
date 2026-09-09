@@ -344,7 +344,6 @@
   parent: BaseStationTile
   name: tiles-techmaint-floor-dark
   sprite: /Textures/Tiles/Basic/Dark/dark-maint.png
-  variants: 4 # Mari - sprite has 4 variants.
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemTechmaintDark
