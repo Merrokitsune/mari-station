@@ -1,0 +1,269 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from tgstation at commits https://github.com/BeeStation/BeeStation-Hornet/commit/e868c0382c02d89b7af56354f8f9fc0bcaa2f4d1 and https://github.com/BeeStation/BeeStation-Hornet/commit/4c4bea2b5af04265cc43e60083ebdbf0875854e1 with inhands from commit https://github.com/tgstation/tgstation/commit/c2ce4562fcdaee647c7cbcc3997f94f804707ed8, and edited by Merrokitsune with coloring taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/662c08272acd7be79531550919f56f846726eabb. Additional attributions available in the Resources/Textures/Tiles/attributions.yml file.",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "steel"
+        },
+        {
+            "name": "steel-plastic"
+        },
+        {
+            "name": "steel-offset"
+        },
+        {
+            "name": "steel-offset-plastic"
+        },
+        {
+            "name": "steel-diagonal"
+        },
+        {
+            "name": "steel-diagonal-plastic"
+        },
+        {
+            "name": "steel-mono"
+        },
+        {
+            "name": "steel-mono-plastic"
+        },
+        {
+            "name": "steel-pavement"
+        },
+        {
+            "name": "steel-pavement-plastic"
+        },
+        {
+            "name": "steel-pavement-vertical"
+        },
+        {
+            "name": "steel-pavemenr-vertical-plastic"
+        },
+        {
+            "name": "steel-herringbone"
+        },
+        {
+            "name": "steel-herringbone-plastic"
+        },
+        {
+            "name": "steel-horizontal-slats"
+        },
+        {
+            "name": "steel-horizontal-slats-plastic"
+        },
+        {
+            "name": "steel-vertical-slats"
+        },
+        {
+            "name": "steel-vertical-slats-plastic"
+        },
+        {
+            "name": "steel-horizontal-slats-continuous"
+        },
+        {
+            "name": "steel-horizontal-slats-continuous-plastic"
+        },
+        {
+            "name": "steel-vertical-slats-continuous"
+        },
+        {
+            "name": "steel-vertical-slats-continuous-plastic"
+        },
+        {
+            "name": "steel-squiggly"
+        },
+        {
+            "name": "steel-squiggly-plastic"
+        },
+        {
+            "name": "steel-squiggly-vertical"
+        },
+        {
+            "name": "steel-squiggly-vertical-plastic"
+        },
+        {
+            "name": "steel-inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "steel-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "dark"
+        },
+        {
+            "name": "dark-plastic"
+        },
+        {
+            "name": "dark-offset"
+        },
+        {
+            "name": "dark-offset-plastic"
+        },
+        {
+            "name": "dark-diagonal"
+        },
+        {
+            "name": "dark-diagonal-plastic"
+        },
+        {
+            "name": "dark-mono"
+        },
+        {
+            "name": "dark-mono-plastic"
+        },
+        {
+            "name": "dark-pavement"
+        },
+        {
+            "name": "dark-pavement-plastic"
+        },
+        {
+            "name": "dark-pavement-vertical"
+        },
+        {
+            "name": "dark-pavemenr-vertical-plastic"
+        },
+        {
+            "name": "dark-herringbone"
+        },
+        {
+            "name": "dark-herringbone-plastic"
+        },
+        {
+            "name": "dark-horizontal-slats"
+        },
+        {
+            "name": "dark-horizontal-slats-plastic"
+        },
+        {
+            "name": "dark-vertical-slats"
+        },
+        {
+            "name": "dark-vertical-slats-plastic"
+        },
+        {
+            "name": "dark-horizontal-slats-continuous"
+        },
+        {
+            "name": "dark-horizontal-slats-continuous-plastic"
+        },
+        {
+            "name": "dark-vertical-slats-continuous"
+        },
+        {
+            "name": "dark-vertical-slats-continuous-plastic"
+        },
+        {
+            "name": "dark-squiggly"
+        },
+        {
+            "name": "dark-squiggly-plastic"
+        },
+        {
+            "name": "dark-squiggly-vertical"
+        },
+        {
+            "name": "dark-squiggly-vertical-plastic"
+        },
+        {
+            "name": "dark-inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "dark-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "white"
+        },
+        {
+            "name": "white-plastic"
+        },
+        {
+            "name": "white-offset"
+        },
+        {
+            "name": "white-offset-plastic"
+        },
+        {
+            "name": "white-diagonal"
+        },
+        {
+            "name": "white-diagonal-plastic"
+        },
+        {
+            "name": "white-mono"
+        },
+        {
+            "name": "white-mono-plastic"
+        },
+        {
+            "name": "white-pavement"
+        },
+        {
+            "name": "white-pavement-plastic"
+        },
+        {
+            "name": "white-pavement-vertical"
+        },
+        {
+            "name": "white-pavemenr-vertical-plastic"
+        },
+        {
+            "name": "white-herringbone"
+        },
+        {
+            "name": "white-herringbone-plastic"
+        },
+        {
+            "name": "white-horizontal-slats"
+        },
+        {
+            "name": "white-horizontal-slats-plastic"
+        },
+        {
+            "name": "white-vertical-slats"
+        },
+        {
+            "name": "white-vertical-slats-plastic"
+        },
+        {
+            "name": "white-horizontal-slats-continuous"
+        },
+        {
+            "name": "white-horizontal-slats-continuous-plastic"
+        },
+        {
+            "name": "white-vertical-slats-continuous"
+        },
+        {
+            "name": "white-vertical-slats-continuous-plastic"
+        },
+        {
+            "name": "white-squiggly"
+        },
+        {
+            "name": "white-squiggly-plastic"
+        },
+        {
+            "name": "white-squiggly-vertical"
+        },
+        {
+            "name": "white-squiggly-vertical-plastic"
+        },
+        {
+            "name": "white-inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "white-inhand-left",
+            "directions": 4
+        }
+    ]
+}
