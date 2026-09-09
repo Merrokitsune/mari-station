@@ -117,7 +117,7 @@
   id: FloorPlastic
   parent: BaseStationTile
   name: tiles-plastic-floor
-  sprite: /Textures/_Funkystation/Tiles/plastic.png # Funky
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-plastic.png # Mari
   variants: 4
   itemDrop: FloorTileItemSteel
 
