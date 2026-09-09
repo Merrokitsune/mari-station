@@ -3,7 +3,7 @@
   id: FloorSteel
   parent: BaseStationTile
   name: tiles-steel-floor
-  sprite: /Textures/_Maristation/Tiles/Gray/gray.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray.png # Mari
   variants: 4
   itemDrop: FloorTileItemSteel
 
@@ -27,7 +27,7 @@
   id: FloorSteelMini
   parent: BaseStationTile
   name: tiles-steel-floor-mini
-  sprite: /Textures/_Maristation/Tiles/Gray/gray-mini.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-mini.png # Mari
   variants: 4
   itemDrop: FloorTileItemSteelMini
 
@@ -35,7 +35,7 @@
   id: FloorSteelPavement
   parent: BaseStationTile
   name: tiles-steel-floor-pavement
-  sprite: /Textures/_Maristation/Tiles/Gray/gray-pavement.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-pavement.png # Mari
   variants: 4
   itemDrop: FloorTileItemSteelPavement
 
@@ -43,7 +43,7 @@
   id: FloorSteelDiagonal
   parent: BaseStationTile
   name: tiles-steel-floor-diagonal
-  sprite: /Textures/_Maristation/Tiles/Gray/gray-diagonal.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-diagonal.png # Mari
   variants: 4
   itemDrop: FloorTileItemSteelDiagonal
 
@@ -51,14 +51,14 @@
   id: FloorSteelOffset
   parent: BaseStationTile
   name: tiles-steel-floor-offset
-  sprite: /Textures/_Maristation/Tiles/Gray/gray-offset.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-offset.png # Mari
   itemDrop: FloorTileItemSteelOffset
 
 - type: tile
   id: FloorSteelMono
   parent: BaseStationTile
   name: tiles-steel-floor-mono
-  sprite: /Textures/_Maristation/Tiles/Gray/gray-mono.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-mono.png # Mari
   variants: 4
   itemDrop: FloorTileItemSteelMono
 
@@ -66,7 +66,7 @@
   id: FloorSteelPavementVertical
   parent: BaseStationTile
   name: tiles-steel-floor-pavement-vertical
-  sprite: /Textures/_Maristation/Tiles/Gray/gray-pavement-vertical.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-pavement-vertical.png # Mari
   variants: 4
   itemDrop: FloorTileItemSteelPavementVertical
 
@@ -74,7 +74,7 @@
   id: FloorSteelHerringbone
   parent: BaseStationTile
   name: tiles-steel-floor-herringbone
-  sprite: /Textures/_Maristation/Tiles/Gray/gray-herringbone.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-herringbone.png # Mari
   variants: 4
   itemDrop: FloorTileItemSteelHerringbone
 
@@ -136,7 +136,7 @@
   id: FloorWhite
   parent: BaseStationTile
   name: tiles-white-floor
-  sprite: /Textures/_Maristation/Tiles/White/white.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -146,7 +146,7 @@
   id: FloorWhiteMini
   parent: BaseStationTile
   name: tiles-white-floor-mini
-  sprite: /Textures/_Maristation/Tiles/White/white-mini.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-mini.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -156,21 +156,21 @@
   parent: BaseStationTile
   id: FloorWhiteVerticalSlatsBordered
   name: tiles-white-floor-vertical-slats-bordered
-  sprite: /Textures/_Maristation/Tiles/White/white-vertical-slats.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-vertical-slats.png # Mari
   itemDrop: FloorTileItemWhiteVerticalSlatsBordered
 
 - type: tile
   parent: BaseStationTile
   id: FloorWhiteHorizontalSlatsBordered
   name: tiles-white-floor-horizontal-slats-bordered
-  sprite: /Textures/_Maristation/Tiles/White/white-horizontal-slats.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-slats.png # Mari
   itemDrop: FloorTileItemWhiteHorizontalSlatsBordered
 
 - type: tile
   id: FloorWhitePavement
   parent: BaseStationTile
   name: tiles-white-floor-pavement
-  sprite: /Textures/_Maristation/Tiles/White/white-pavement.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-pavement.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -180,7 +180,7 @@
   id: FloorWhiteMono
   parent: BaseStationTile
   name: tiles-white-floor-mono
-  sprite: /Textures/_Maristation/Tiles/White/white-mono.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-mono.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -190,7 +190,7 @@
   id: FloorWhitePavementVertical
   parent: BaseStationTile
   name: tiles-white-floor-pavement-vertical
-  sprite: /Textures/_Maristation/Tiles/White/white-pavement-vertical.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-pavement-vertical.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -200,7 +200,7 @@
   id: FloorWhiteHerringbone
   parent: BaseStationTile
   name: tiles-white-floor-herringbone
-  sprite: /Textures/_Maristation/Tiles/White/white-herringbone.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-herringbone.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -210,7 +210,7 @@
   id: FloorWhitePlastic
   parent: BaseStationTile
   name: tiles-plastic-white-floor
-  sprite: /Textures/_Maristation/Tiles/White/white-plastic.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-plastic.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -221,7 +221,7 @@
   id: FloorWhiteDiagonal
   parent: BaseStationTile
   name: tiles-white-floor-diagonal
-  sprite: /Textures/_Maristation/Tiles/White/white-diagonal.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-diagonal.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -231,7 +231,7 @@
   id: FloorWhiteOffset
   parent: BaseStationTile
   name: tiles-white-floor-offset
-  sprite: /Textures/_Maristation/Tiles/White/white-offset.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-offset.png # Mari
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemWhiteOffset
@@ -252,7 +252,7 @@
   id: FloorDark
   parent: BaseStationTile
   name: tiles-dark-floor
-  sprite: /Textures/_Maristation/Tiles/Dark/dark.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -262,7 +262,7 @@
   id: FloorDarkMini
   parent: BaseStationTile
   name: tiles-dark-floor-mini
-  sprite: /Textures/_Maristation/Tiles/Dark/dark-mini.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-mini.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -273,21 +273,21 @@
   parent: BaseStationTile
   id: FloorDarkVerticalSlatsBordered
   name: tiles-dark-floor-vertical-slats-bordered
-  sprite: /Textures/_Maristation/Tiles/Dark/dark-vertical-slats.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-vertical-slats.png # Mari
   itemDrop: FloorTileItemDarkVerticalSlatsBordered
 
 - type: tile
   parent: BaseStationTile
   id: FloorDarkHorizontalSlatsBordered
   name: tiles-dark-floor-horizontal-slats-bordered
-  sprite: /Textures/_Maristation/Tiles/Dark/dark-horizontal-slats.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-horizontal-slats.png # Mari
   itemDrop: FloorTileItemDarkHorizontalSlatsBordered
 
 - type: tile
   id: FloorDarkPavement
   parent: BaseStationTile
   name: tiles-dark-floor-pavement
-  sprite: /Textures/_Maristation/Tiles/Dark/dark-pavement.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-pavement.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -297,7 +297,7 @@
   id: FloorDarkMono
   parent: BaseStationTile
   name: tiles-dark-floor-mono
-  sprite: /Textures/_Maristation/Tiles/Dark/dark-mono.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-mono.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -307,7 +307,7 @@
   id: FloorDarkPavementVertical
   parent: BaseStationTile
   name: tiles-dark-floor-pavement-vertical
-  sprite: /Textures/_Maristation/Tiles/Dark/dark-pavement-vertical.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-pavement-vertical.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -317,7 +317,7 @@
   id: FloorDarkHerringbone
   parent: BaseStationTile
   name: tiles-dark-floor-herringbone
-  sprite: /Textures/_Maristation/Tiles/Dark/dark-herringbone.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-herringbone.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -327,7 +327,7 @@
   id: FloorDarkPlastic
   parent: BaseStationTile
   name: tiles-plastic-dark-floor
-  sprite: /Textures/_Maristation/Tiles/Dark/dark-plastic.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-plastic.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -347,7 +347,7 @@
   id: FloorDarkDiagonal
   parent: BaseStationTile
   name: tiles-dark-floor-diagonal
-  sprite: /Textures/_Maristation/Tiles/Dark/dark-diagonal.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-diagonal.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -357,7 +357,7 @@
   id: FloorDarkOffset
   parent: BaseStationTile
   name: tiles-dark-floor-offset
-  sprite: /Textures/_Maristation/Tiles/Dark/dark-offset.png # Mari
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-offset.png # Mari
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemDarkOffset
