@@ -1,0 +1,39 @@
+- files:
+  - gray.png
+  - gray-plastic.png
+  - gray-offset.png
+  - gray-offset-plastic.png
+  - gray-diagonal.png
+  - gray-diagonal-plastic.png
+  - gray-mono.png
+  - gray-mono-plastic.png
+  - gray-mini.png
+  - gray-mini-plastic.png
+  - gray-pavement.png
+  - gray-pavement-plastic.png
+  - gray-pavement-vertical.png
+  - gray-pavement-vertical-plastic.png
+  - gray-herringbone.png
+  - gray-herringbone-plastic.png
+  - gray-horizontal-slats.png
+  - gray-horizontal-slats-plastic.png
+  - gray-vertical-slats.png
+  - gray-vertical-slats-plastic.png
+  - gray-horizontal-slats-continuous.png
+  - gray-horizontal-slats-continuous-plastic.png
+  - gray-vertical-slats-continuous.png
+  - gray-vertical-slats-continuous-plastic.png
+  - gray-squiggly.png
+  - gray-squiggly-plastic.png
+  - gray-squiggly-vertical.png
+  - gray-squiggly-vertical-plastic.png
+  
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from BeeStation/BeeStation-Hornet at commit https://github.com/BeeStation/BeeStation-Hornet/commit/f2d6fbdf36aa0951049498cf28e028a38e32fe0b and edited by Merrokitsune with coloring taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/662c08272acd7be79531550919f56f846726eabb. herringbone and slat sprites are based on sprites taken from space-wizards/space-station-14 at commit https://github.com/space-wizards/space-station-14/commit/4645e40b607ac25eac742c5423c40260006b0856. squiggly and slat-continuous sprites are based on sprites taken from space-wizards/space-station14 at commit https://github.com/space-wizards/space-station-14/commit/9af0b354e36231d6101306bfe76f9788d2f7af79."
+  source: "https://github.com/BeeStation/BeeStation-Hornet/commit/f2d6fbdf36aa0951049498cf28e028a38e32fe0b"
+
+- files:
+  - gray-damaged.png
+  license: "CC-BY-SA-3.0"
+  copyright: "Damage overlays by WJohn (GitHub) with 3rd tile from left to right edited by Merrokitsune with plating taken from BeeStation/BeeStation-Hornet at commit https://github.com/BeeStation/BeeStation-Hornet/commit/f2d6fbdf36aa0951049498cf28e028a38e32fe0b and edited by Merrokitsune with parts taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/662c08272acd7be79531550919f56f846726eabb. Gray tile taken from BeeStation/BeeStation-Hornet at commit https://github.com/BeeStation/BeeStation-Hornet/commit/f2d6fbdf36aa0951049498cf28e028a38e32fe0b and edited by Merrokitsune with coloring taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/662c08272acd7be79531550919f56f846726eabb."
+  source: "https://github.com/wall-nerds/wallening/blob/9428d97a4fadf8a486b0c6fbe2ee345a2780e687/icons/turf/damaged.dmi"

@@ -1,0 +1,34 @@
+- files:
+  - dark.png
+  - dark-plastic.png
+  - dark-offset.png
+  - dark-offset-plastic.png
+  - dark-diagonal.png
+  - dark-diagonal-plastic.png
+  - dark-mono.png
+  - dark-mono-plastic.png
+  - dark-mini.png
+  - dark-mini-plastic.png
+  - dark-pavement.png
+  - dark-pavement-plastic.png
+  - dark-pavement-vertical.png
+  - dark-pavement-vertical-plastic.png
+  - dark-herringbone.png
+  - dark-herringbone-plastic.png
+  - dark-horizontal-slats.png
+  - dark-horizontal-slats-plastic.png
+  - dark-vertical-slats.png
+  - dark-vertical-slats-plastic.png
+  - dark-horizontal-slats-continuous.png
+  - dark-horizontal-slats-continuous-plastic.png
+  - dark-vertical-slats-continuous.png
+  - dark-vertical-slats-continuous-plastic.png
+  - dark-squiggly.png
+  - dark-squiggly-plastic.png
+  - dark-squiggly-vertical.png
+  - dark-squiggly-vertical-plastic.png
+  
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from BeeStation/BeeStation-Hornet at commit https://github.com/BeeStation/BeeStation-Hornet/commit/f2d6fbdf36aa0951049498cf28e028a38e32fe0b and edited by Merrokitsune with coloring taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/662c08272acd7be79531550919f56f846726eabb. herringbone and slat sprites are based on sprites taken from space-wizards/space-station-14 at commit https://github.com/space-wizards/space-station-14/commit/4645e40b607ac25eac742c5423c40260006b0856. squiggly and slat-continuous sprites are based on sprites taken from space-wizards/space-station14 at commit https://github.com/space-wizards/space-station-14/commit/9af0b354e36231d6101306bfe76f9788d2f7af79."
+  source: "https://github.com/BeeStation/BeeStation-Hornet/commit/f2d6fbdf36aa0951049498cf28e028a38e32fe0b"
+
