@@ -119,7 +119,7 @@
   name: tiles-plastic-floor
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-plastic.png # Mari
   variants: 4
-  itemDrop: FloorTileItemSteel
+  itemDrop: FloorTileItemSteelPlastic # Mari
 
 - type: tile
   id: FloorSteelDamaged
@@ -219,7 +219,7 @@
   variants: 4
   footstepSounds:
     collection: FootstepTile
-  itemDrop: FloorTileItemWhite
+  itemDrop: FloorTileItemWhitePlastic # Mari
 
 #Funky start - More white floors
 - type: tile
@@ -339,7 +339,7 @@
   variants: 4
   footstepSounds:
     collection: FootstepTile
-  itemDrop: FloorTileItemDark
+  itemDrop: FloorTileItemDarkPlastic # Mari
 
 - type: tile
   id: FloorTechMaintDark

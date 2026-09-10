@@ -1,6 +1,109 @@
 #### NOTE:
 # These tiles belong to Maristation and are used by Maristation's maps. As a result, Maristation maps are not compatible with upstream Funkystation.
 
+######## STEEL
+
+#### STEEL / GRAY
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelVerticalSlatsContinuous
+  name: tiles-steel-floor-vertical-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-vertical-slats-continuous.png
+  variants: 4
+  itemDrop: FloorTileItemSteelVerticalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelHorizontalSlatsContinuous
+  name: tiles-steel-floor-horizontal-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-horizontal-slats-continuous.png
+  variants: 4
+  itemDrop: FloorTileItemSteelHorizontalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelSquiggly
+  name: tiles-steel-floor-squiggly
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-squiggly.png
+  variants: 4
+  itemDrop: FloorTileItemSteelSquiggly
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelSquigglyVertical
+  name: tiles-steel-floor-squiggly-vertical
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-squiggly-vertical.png
+  variants: 4
+  itemDrop: FloorTileItemSteelSquigglyVertical
+
+#### DARK
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkVerticalSlatsContinuous
+  name: tiles-dark-floor-vertical-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-vertical-slats-continuous.png
+  variants: 4
+  itemDrop: FloorTileItemDarkVerticalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkHorizontalSlatsContinuous
+  name: tiles-dark-floor-horizontal-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-horizontal-slats-continuous.png
+  variants: 4
+  itemDrop: FloorTileItemDarkHorizontalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkSquiggly
+  name: tiles-dark-floor-squiggly
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-squiggly.png
+  variants: 4
+  itemDrop: FloorTileItemDarkSquiggly
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkSquigglyVertical
+  name: tiles-dark-floor-squiggly-vertical
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-squiggly-vertical.png
+  variants: 4
+  itemDrop: FloorTileItemDarkSquigglyVertical
+
+#### WHITE
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteVerticalSlatsContinuous
+  name: tiles-white-floor-vertical-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-vertical-slats-continuous.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteVerticalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteHorizontalSlatsContinuous
+  name: tiles-white-floor-horizontal-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-slats-continuous.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteHorizontalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteSquiggly
+  name: tiles-white-floor-squiggly
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-squiggly.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteSquiggly
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteSquigglyVertical
+  name: tiles-white-floor-squiggly-vertical
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-squiggly-vertical.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteSquigglyVertical
+
+######## PLASTIC
+
 #### STEEL / GRAY
 - type: tile
   id: FloorSteelMiniPlastic
@@ -8,7 +111,7 @@
   name: tiles-steel-floor-mini-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-mini-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemSteelMiniPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemSteelMiniPlastic
 
 - type: tile
   id: FloorSteelPavementPlastic
@@ -16,7 +119,7 @@
   name: tiles-steel-floor-pavement-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-pavement-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemSteelPavementPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemSteelPavementPlastic
 
 - type: tile
   id: FloorSteelDiagonalPlastic
@@ -24,7 +127,7 @@
   name: tiles-steel-floor-diagonal-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-diagonal-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemSteelDiagonalPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemSteelDiagonalPlastic
 
 - type: tile
   id: FloorSteelOffsetPlastic
@@ -32,7 +135,7 @@
   name: tiles-steel-floor-offset-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-offset-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemSteelOffsetPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemSteelOffsetPlastic
 
 - type: tile
   id: FloorSteelMonoPlastic
@@ -40,7 +143,7 @@
   name: tiles-steel-floor-mono-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-mono-plastic.png # Mari
   variants: 4
-  #itemDrop: FloorTileItemSteelMonoPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemSteelMonoPlastic.
 
 - type: tile
   id: FloorSteelPavementVerticalPlastic
@@ -48,7 +151,7 @@
   name: tiles-steel-floor-pavement-vertical-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-pavement-vertical-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemSteelPavementVerticalPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemSteelPavementVerticalPlastic
 
 - type: tile
   id: FloorSteelHerringbonePlastic
@@ -56,31 +159,23 @@
   name: tiles-steel-floor-herringbone
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-herringbone-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemSteelHerringbonePlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemSteelHerringbonePlastic
 
 - type: tile
   parent: BaseStationTile
-  id: FloorSteelVerticalSlatsContinuous
-  name: tiles-steel-floor-vertical-slats-continuous
-  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-vertical-slats-continuous.png
+  id: FloorSteelHorizontalSlatsContinuousPlastic
+  name: tiles-steel-floor-horizontal-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-horizontal-slats-continuous-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemSteelVerticalSlatsContinuous # Mari - Not yet implemented.
+  itemDrop: FloorTileItemSteelHorizontalSlatsContinuousPlastic
 
 - type: tile
   parent: BaseStationTile
-  id: FloorSteelHorizontalSlatsContinuous
-  name: tiles-steel-floor-horizontal-slats-continuous
-  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-horizontal-continuous.png
+  id: FloorSteelVerticalSlatsContinuousPlastic
+  name: tiles-steel-floor-vertical-slats-continuousPlastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-vertical-slats-continuous-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemSteelHorizontalSlatsContinuous # Mari - Not yet implemented.
-
-- type: tile
-  parent: BaseStationTile
-  id: FloorSteelHorizontalSlatsContinuous
-  name: tiles-steel-floor-horizontal-slats-continuous
-  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-horizontal-continuous.png
-  variants: 4
-  #itemDrop: FloorTileItemSteelHorizontalSlatsContinuous # Mari - Not yet implemented.
+  itemDrop: FloorTileItemSteelVerticalSlatsContinuousPlastic
 
 #### WHITE
 - type: tile
@@ -89,7 +184,7 @@
   name: tiles-white-floor-mini-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/White/white-mini-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemWhiteMiniPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemWhiteMiniPlastic
 
 - type: tile
   id: FloorWhitePavementPlastic
@@ -97,7 +192,7 @@
   name: tiles-white-floor-pavement-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/White/white-pavement-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemWhitePavementPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemWhitePavementPlastic
 
 - type: tile
   id: FloorWhiteDiagonalPlastic
@@ -105,7 +200,7 @@
   name: tiles-white-floor-diagonal-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/White/white-diagonal-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemWhiteDiagonalPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemWhiteDiagonalPlastic
 
 - type: tile
   id: FloorWhiteOffsetPlastic
@@ -113,7 +208,7 @@
   name: tiles-white-floor-offset-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/White/white-offset-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemWhiteOffsetPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemWhiteOffsetPlastic
 
 - type: tile
   id: FloorWhiteMonoPlastic
@@ -121,7 +216,7 @@
   name: tiles-white-floor-mono-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/White/white-mono-plastic.png # Mari
   variants: 4
-  #itemDrop: FloorTileItemWhiteMonoPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemWhiteMonoPlastic
 
 - type: tile
   id: FloorWhitePavementVerticalPlastic
@@ -129,7 +224,7 @@
   name: tiles-white-floor-pavement-vertical-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/White/white-pavement-vertical-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemWhitePavementVerticalPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemWhitePavementVerticalPlastic
 
 - type: tile
   id: FloorWhiteHerringbonePlastic
@@ -137,31 +232,23 @@
   name: tiles-white-floor-herringbone
   sprite: /Textures/_Maristation/Tiles/Basic/White/white-herringbone-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemWhiteHerringbonePlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemWhiteHerringbonePlastic
 
 - type: tile
   parent: BaseStationTile
-  id: FloorWhiteVerticalSlatsContinuous
-  name: tiles-white-floor-vertical-slats-continuous
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-vertical-slats-continuous.png
+  id: FloorWhiteHorizontalSlatsContinuousPlastic
+  name: tiles-white-floor-horizontal-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-slats-continuous-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemWhiteVerticalSlatsContinuous # Mari - Not yet implemented.
+  itemDrop: FloorTileItemWhiteHorizontalSlatsContinuousPlastic
 
 - type: tile
   parent: BaseStationTile
-  id: FloorWhiteHorizontalSlatsContinuous
-  name: tiles-white-floor-horizontal-slats-continuous
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-continuous.png
+  id: FloorWhiteVerticalSlatsContinuousPlastic
+  name: tiles-white-floor-vertical-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-vertical-slats-continuous-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemWhiteHorizontalSlatsContinuous # Mari - Not yet implemented.
-
-- type: tile
-  parent: BaseStationTile
-  id: FloorWhiteHorizontalSlatsContinuous
-  name: tiles-white-floor-horizontal-slats-continuous
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-continuous.png
-  variants: 4
-  #itemDrop: FloorTileItemWhiteHorizontalSlatsContinuous # Mari - Not yet implemented.
+  itemDrop: FloorTileItemWhiteVerticalSlatsContinuousPlastic
 
 ### DARK
 - type: tile
@@ -170,7 +257,7 @@
   name: tiles-dark-floor-mini-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-mini-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemDarkMiniPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemDarkMiniPlastic
 
 - type: tile
   id: FloorDarkPavementPlastic
@@ -178,7 +265,7 @@
   name: tiles-dark-floor-pavement-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-pavement-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemDarkPavementPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemDarkPavementPlastic
 
 - type: tile
   id: FloorDarkDiagonalPlastic
@@ -186,7 +273,7 @@
   name: tiles-dark-floor-diagonal-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-diagonal-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemDarkDiagonalPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemDarkDiagonalPlastic
 
 - type: tile
   id: FloorDarkOffsetPlastic
@@ -194,7 +281,7 @@
   name: tiles-dark-floor-offset-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-offset-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemDarkOffsetPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemDarkOffsetPlastic
 
 - type: tile
   id: FloorDarkMonoPlastic
@@ -202,7 +289,7 @@
   name: tiles-dark-floor-mono-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-mono-plastic.png # Mari
   variants: 4
-  #itemDrop: FloorTileItemDarkMonoPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemDarkMonoPlastic
 
 - type: tile
   id: FloorDarkPavementVerticalPlastic
@@ -210,7 +297,7 @@
   name: tiles-dark-floor-pavement-vertical-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-pavement-vertical-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemDarkPavementVerticalPlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemDarkPavementVerticalPlastic
 
 - type: tile
   id: FloorDarkHerringbonePlastic
@@ -218,28 +305,21 @@
   name: tiles-dark-floor-herringbone
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-herringbone-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemDarkHerringbonePlastic # Mari - Not yet implemented.
+  itemDrop: FloorTileItemDarkHerringbonePlastic
 
 - type: tile
   parent: BaseStationTile
-  id: FloorDarkVerticalSlatsContinuous
-  name: tiles-dark-floor-vertical-slats-continuous
-  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-vertical-slats-continuous.png
+  id: FloorDarkVerticalSlatsContinuousPlastic
+  name: tiles-dark-floor-vertical-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-vertical-slats-continuous-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemDarkVerticalSlatsContinuous # Mari - Not yet implemented.
+  itemDrop: FloorTileItemDarkVerticalSlatsContinuousPlastic
 
 - type: tile
   parent: BaseStationTile
-  id: FloorDarkHorizontalSlatsContinuous
-  name: tiles-dark-floor-horizontal-slats-continuous
-  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-horizontal-continuous.png
+  id: FloorDarkHorizontalSlatsContinuousPlastic
+  name: tiles-dark-floor-horizontal-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-horizontal-slats-continuous-plastic.png
   variants: 4
-  #itemDrop: FloorTileItemDarkHorizontalSlatsContinuous # Mari - Not yet implemented.
+  itemDrop: FloorTileItemDarkHorizontalSlatsContinuousPlastic
 
-- type: tile
-  parent: BaseStationTile
-  id: FloorDarkHorizontalSlatsContinuous
-  name: tiles-dark-floor-horizontal-slats-continuous
-  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-horizontal-continuous.png
-  variants: 4
-  #itemDrop: FloorTileItemDarkHorizontalSlatsContinuous # Mari - Not yet implemented.

@@ -32,6 +32,12 @@
             "name": "steel-mono-plastic"
         },
         {
+            "name": "steel-mini"
+        },
+        {
+            "name": "steel-mini-plastic"
+        },
+        {
             "name": "steel-pavement"
         },
         {
@@ -41,7 +47,7 @@
             "name": "steel-pavement-vertical"
         },
         {
-            "name": "steel-pavemenr-vertical-plastic"
+            "name": "steel-pavement-vertical-plastic"
         },
         {
             "name": "steel-herringbone"
@@ -118,6 +124,12 @@
             "name": "dark-mono-plastic"
         },
         {
+            "name": "dark-mini"
+        },
+        {
+            "name": "dark-mini-plastic"
+        },
+        {
             "name": "dark-pavement"
         },
         {
@@ -127,7 +139,7 @@
             "name": "dark-pavement-vertical"
         },
         {
-            "name": "dark-pavemenr-vertical-plastic"
+            "name": "dark-pavement-vertical-plastic"
         },
         {
             "name": "dark-herringbone"
@@ -204,6 +216,12 @@
             "name": "white-mono-plastic"
         },
         {
+            "name": "white-mini"
+        },
+        {
+            "name": "white-mini-plastic"
+        },
+        {
             "name": "white-pavement"
         },
         {
@@ -213,7 +231,7 @@
             "name": "white-pavement-vertical"
         },
         {
-            "name": "white-pavemenr-vertical-plastic"
+            "name": "white-pavement-vertical-plastic"
         },
         {
             "name": "white-herringbone"
