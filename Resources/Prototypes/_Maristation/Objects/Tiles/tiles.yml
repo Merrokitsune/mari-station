@@ -191,7 +191,7 @@
   - type: FloorTile
     outputs:
       - Plating
-      - FloorSteel
+      - FloorSteelPlastic
   - type: Stack
     stackType: FloorTileSteelPlastic
   #- type: Construction # Mari - Not yet implemented.
@@ -312,7 +312,7 @@
   - type: FloorTile
     outputs:
       - Plating
-      - FloorDark
+      - FloorDarkPlastic
   - type: Stack
     stackType: FloorTileDarkPlastic
   #- type: Construction # Mari - Not yet implemented.
@@ -433,7 +433,7 @@
   - type: FloorTile
     outputs:
       - Plating
-      - FloorWhite
+      - FloorWhitePlastic
   - type: Stack
     stackType: FloorTileWhitePlastic
   #- type: Construction # Mari - Not yet implemented.
