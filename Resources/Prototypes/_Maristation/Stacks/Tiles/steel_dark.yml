@@ -1,0 +1,109 @@
+#### STEEL
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkHorizontalSlatsContinuous
+  name: stack-dark-steel-horizontal-slats-tile-continuous
+  spawn: FloorTileItemDarkHorizontalSlatsContinuous
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkVerticalSlatsContinuous
+  name: stack-dark-steel-vertical-slats-tile-continuous
+  spawn: FloorTileItemDarkVerticalSlatsContinuous
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkSquiggly
+  name: stack-dark-squiggly
+  spawn: FloorTileItemDarkSquiggly
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkSquigglyVertical
+  name: stack-dark-squiggly-vertical
+  spawn: FloorTileItemDarkSquigglyVertical
+
+#### PLASTIC
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkPlastic
+  name: stack-dark-tile-plastic
+  spawn: FloorTileItemDarkPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkOffsetPlastic
+  name: stack-dark-tile-offset-plastic
+  spawn: FloorTileItemDarkOffsetPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkDiagonalPlastic
+  name: stack-dark-tile-diagonal-plastic
+  spawn: FloorTileItemDarkDiagonalPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkMonoPlastic
+  name: stack-dark-steel-mono-tile-plastic
+  spawn: FloorTileItemDarkMonoPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkMiniPlastic
+  name: stack-dark-steel-mini-tile-plastic
+  spawn: FloorTileItemDarkMiniPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkPavementPlastic
+  name: stack-dark-steel-pavement-plastic
+  spawn: FloorTileItemDarkPavementPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkPavementVerticalPlastic
+  name: stack-dark-steel-vertical-pavement-plastic
+  spawn: FloorTileItemDarkPavementVerticalPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkHorizontalSlatsBorderedPlastic
+  name: stack-dark-steel-horizontal-slats-tile-bordered-plastic
+  spawn: FloorTileItemDarkHorizontalSlatsBorderedPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkVerticalSlatsBorderedPlastic
+  name: stack-dark-steel-vertical-slats-tile-bordered-plastic
+  spawn: FloorTileItemDarkVerticalSlatsBorderedPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkHorizontalSlatsContinuousPlastic
+  name: stack-dark-steel-horizontal-slats-tile-continuous-plastic
+  spawn: FloorTileItemDarkHorizontalSlatsContinuousPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkVerticalSlatsContinuousPlastic
+  name: stack-dark-steel-vertical-slats-tile-continuous-plastic
+  spawn: FloorTileItemDarkVerticalSlatsContinuousPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkHerringbonePlastic
+  name: stack-dark-steel-herringbone-plastic
+  spawn: FloorTileItemDarkHerringbonePlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkSquigglyPlastic
+  name: stack-dark-squiggly-plastic
+  spawn: FloorTileItemDarkSquigglyPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileDarkSquigglyVerticalPlastic
+  name: stack-dark-squiggly-vertical-plastic
+  spawn: FloorTileItemDarkSquigglyVerticalPlastic

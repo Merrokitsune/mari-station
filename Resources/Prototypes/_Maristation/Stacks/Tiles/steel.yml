@@ -1,0 +1,109 @@
+#### STEEL
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelHorizontalSlatsContinuous
+  name: stack-steel-horizontal-slats-tile-continuous
+  spawn: FloorTileItemSteelHorizontalSlatsContinuous
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelVerticalSlatsContinuous
+  name: stack-steel-vertical-slats-tile-continuous
+  spawn: FloorTileItemSteelVerticalSlatsContinuous
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelSquiggly
+  name: stack-steel-squiggly
+  spawn: FloorTileItemSteelSquiggly
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelSquigglyVertical
+  name: stack-steel-squiggly-vertical
+  spawn: FloorTileItemSteelSquigglyVertical
+
+#### PLASTIC
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelPlastic
+  name: stack-steel-tile-plastic
+  spawn: FloorTileItemSteelPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelOffsetPlastic
+  name: stack-steel-tile-offset-plastic
+  spawn: FloorTileItemSteelOffsetPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelDiagonalPlastic
+  name: stack-steel-tile-diagonal-plastic
+  spawn: FloorTileItemSteelDiagonalPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelMonoPlastic
+  name: stack-steel-mono-tile-plastic
+  spawn: FloorTileItemSteelMonoPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelMiniPlastic
+  name: stack-steel-mini-tile-plastic
+  spawn: FloorTileItemSteelMiniPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelPavementPlastic
+  name: stack-steel-pavement-plastic
+  spawn: FloorTileItemSteelPavementPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelPavementVerticalPlastic
+  name: stack-steel-vertical-pavement-plastic
+  spawn: FloorTileItemSteelPavementVerticalPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelHerringbonePlastic
+  name: stack-steel-herringbone-plastic
+  spawn: FloorTileItemSteelHerringbonePlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelVerticalSlatsBorderedPlastic
+  name: stack-steel-vertical-slats-tile-bordered-plastic
+  spawn: FloorTileItemSteelVerticalSlatsBorderedPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelHorizontalSlatsBorderedPlastic
+  name: stack-steel-horizontal-slats-tile-borderedPlastic
+  spawn: FloorTileItemSteelHorizontalSlatsBorderedPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelHorizontalSlatsContinuousPlastic
+  name: stack-steel-horizontal-slats-tile-continuous-plastic
+  spawn: FloorTileItemSteelHorizontalSlatsContinuousPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelVerticalSlatsContinuousPlastic
+  name: stack-steel-vertical-slats-tile-continuous-plastic
+  spawn: FloorTileItemSteelVerticalSlatsContinuousPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelSquigglyPlastic
+  name: stack-steel-squiggly-plastic
+  spawn: FloorTileItemSteelSquigglyPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileSteelSquigglyVerticalPlastic
+  name: stack-steel-squiggly-vertical-plastic
+  spawn: FloorTileItemSteelSquigglyVerticalPlastic

@@ -163,6 +163,22 @@
 
 - type: tile
   parent: BaseStationTile
+  id: FloorSteelHorizontalSlatsBorderedPlastic
+  name: tiles-steel-floor-horizontal-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-horizontal-slats-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelHorizontalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelVerticalSlatsBorderedPlastic
+  name: tiles-steel-floor-vertical-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-vertical-slats-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelVerticalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
   id: FloorSteelHorizontalSlatsContinuousPlastic
   name: tiles-steel-floor-horizontal-slats-continuous-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-horizontal-slats-continuous-plastic.png
@@ -177,78 +193,21 @@
   variants: 4
   itemDrop: FloorTileItemSteelVerticalSlatsContinuousPlastic
 
-#### WHITE
 - type: tile
-  id: FloorWhiteMiniPlastic
   parent: BaseStationTile
-  name: tiles-white-floor-mini-plastic
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-mini-plastic.png
+  id: FloorSteelSquigglyPlastic
+  name: tiles-steel-floor-squiggly-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-squiggly-plastic.png
   variants: 4
-  itemDrop: FloorTileItemWhiteMiniPlastic
-
-- type: tile
-  id: FloorWhitePavementPlastic
-  parent: BaseStationTile
-  name: tiles-white-floor-pavement-plastic
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-pavement-plastic.png
-  variants: 4
-  itemDrop: FloorTileItemWhitePavementPlastic
-
-- type: tile
-  id: FloorWhiteDiagonalPlastic
-  parent: BaseStationTile
-  name: tiles-white-floor-diagonal-plastic
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-diagonal-plastic.png
-  variants: 4
-  itemDrop: FloorTileItemWhiteDiagonalPlastic
-
-- type: tile
-  id: FloorWhiteOffsetPlastic
-  parent: BaseStationTile
-  name: tiles-white-floor-offset-plastic
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-offset-plastic.png
-  variants: 4
-  itemDrop: FloorTileItemWhiteOffsetPlastic
-
-- type: tile
-  id: FloorWhiteMonoPlastic
-  parent: BaseStationTile
-  name: tiles-white-floor-mono-plastic
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-mono-plastic.png # Mari
-  variants: 4
-  itemDrop: FloorTileItemWhiteMonoPlastic
-
-- type: tile
-  id: FloorWhitePavementVerticalPlastic
-  parent: BaseStationTile
-  name: tiles-white-floor-pavement-vertical-plastic
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-pavement-vertical-plastic.png
-  variants: 4
-  itemDrop: FloorTileItemWhitePavementVerticalPlastic
-
-- type: tile
-  id: FloorWhiteHerringbonePlastic
-  parent: BaseStationTile
-  name: tiles-white-floor-herringbone
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-herringbone-plastic.png
-  variants: 4
-  itemDrop: FloorTileItemWhiteHerringbonePlastic
+  itemDrop: FloorTileItemSteelSquigglyPlastic
 
 - type: tile
   parent: BaseStationTile
-  id: FloorWhiteHorizontalSlatsContinuousPlastic
-  name: tiles-white-floor-horizontal-slats-continuous-plastic
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-slats-continuous-plastic.png
+  id: FloorSteelSquigglyVerticalPlastic
+  name: tiles-steel-floor-squiggly-vertical-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-squiggly-vertical-plastic.png
   variants: 4
-  itemDrop: FloorTileItemWhiteHorizontalSlatsContinuousPlastic
-
-- type: tile
-  parent: BaseStationTile
-  id: FloorWhiteVerticalSlatsContinuousPlastic
-  name: tiles-white-floor-vertical-slats-continuous-plastic
-  sprite: /Textures/_Maristation/Tiles/Basic/White/white-vertical-slats-continuous-plastic.png
-  variants: 4
-  itemDrop: FloorTileItemWhiteVerticalSlatsContinuousPlastic
+  itemDrop: FloorTileItemSteelSquigglyVerticalPlastic
 
 ### DARK
 - type: tile
@@ -309,6 +268,22 @@
 
 - type: tile
   parent: BaseStationTile
+  id: FloorDarkVerticalSlatsBorderedPlastic
+  name: tiles-dark-floor-vertical-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-vertical-slats-plastic.png # Mari
+  variants: 4
+  itemDrop: FloorTileItemDarkVerticalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkHorizontalSlatsBorderedPlastic
+  name: tiles-dark-floor-horizontal-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-horizontal-slats-plastic.png # Mari
+  variants: 4
+  itemDrop: FloorTileItemDarkHorizontalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
   id: FloorDarkVerticalSlatsContinuousPlastic
   name: tiles-dark-floor-vertical-slats-continuous-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-vertical-slats-continuous-plastic.png
@@ -323,3 +298,123 @@
   variants: 4
   itemDrop: FloorTileItemDarkHorizontalSlatsContinuousPlastic
 
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkSquigglyPlastic
+  name: tiles-dark-floor-squiggly-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-squiggly-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemDarkSquigglyPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkSquigglyVerticalPlastic
+  name: tiles-dark-floor-squiggly-vertical-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-squiggly-vertical-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemDarkSquigglyVerticalPlastic
+
+#### WHITE
+- type: tile
+  id: FloorWhiteMiniPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-mini-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-mini-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteMiniPlastic
+
+- type: tile
+  id: FloorWhitePavementPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-pavement-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-pavement-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemWhitePavementPlastic
+
+- type: tile
+  id: FloorWhiteDiagonalPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-diagonal-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-diagonal-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteDiagonalPlastic
+
+- type: tile
+  id: FloorWhiteOffsetPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-offset-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-offset-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteOffsetPlastic
+
+- type: tile
+  id: FloorWhiteMonoPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-mono-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-mono-plastic.png # Mari
+  variants: 4
+  itemDrop: FloorTileItemWhiteMonoPlastic
+
+- type: tile
+  id: FloorWhitePavementVerticalPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-pavement-vertical-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-pavement-vertical-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemWhitePavementVerticalPlastic
+
+- type: tile
+  id: FloorWhiteHerringbonePlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-herringbone
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-herringbone-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteHerringbonePlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteVerticalSlatsBorderedPlastic
+  name: tiles-white-floor-vertical-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-vertical-slats-plastic.png # Mari
+  variants: 4
+  itemDrop: FloorTileItemWhiteVerticalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteHorizontalSlatsBorderedPlastic
+  name: tiles-white-floor-horizontal-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-slats-plastic.png # Mari
+  variants: 4
+  itemDrop: FloorTileItemWhiteHorizontalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteHorizontalSlatsContinuousPlastic
+  name: tiles-white-floor-horizontal-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-slats-continuous-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteHorizontalSlatsContinuousPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteVerticalSlatsContinuousPlastic
+  name: tiles-white-floor-vertical-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-vertical-slats-continuous-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteVerticalSlatsContinuousPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteSquigglyPlastic
+  name: tiles-white-floor-squiggly-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-squiggly-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteSquigglyPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteSquigglyVerticalPlastic
+  name: tiles-white-floor-squiggly-vertical-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-squiggly-vertical-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemWhiteSquigglyVerticalPlastic
