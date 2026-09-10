@@ -68,7 +68,7 @@
     stackType: FloorTileSteelCheckerLight
 
 - type: entity
-  name: dark tile
+  name: dark steel tile # Mari - Rename for easy access.
   parent: FloorTileItemBase
   id: FloorTileItemDark
   components:
@@ -306,7 +306,7 @@
     stackType: FloorTileSteelPavementVertical
 
 - type: entity
-  name: white tile
+  name: white steel tile # Mari - Rename for easy access.
   parent: FloorTileItemBase
   id: FloorTileItemWhite
   components:

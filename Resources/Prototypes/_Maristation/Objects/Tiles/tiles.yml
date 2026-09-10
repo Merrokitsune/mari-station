@@ -63,7 +63,7 @@
 - type: entity
   parent: FloorTileItemDark
   id: FloorTileItemDarkHorizontalSlatsContinuous
-  name: dark horizontal continuous slat tile
+  name: dark steel horizontal continuous slat tile
   components:
   - type: Sprite
     state: dark-horizontal-slats-continuous
@@ -77,7 +77,7 @@
 - type: entity
   parent: FloorTileItemDark
   id: FloorTileItemDarkVerticalSlatsContinuous
-  name: dark vertical continuous slat tile
+  name: dark steel vertical continuous slat tile
   components:
   - type: Sprite
     state: dark-vertical-slats-continuous
@@ -91,7 +91,7 @@
 - type: entity
   parent: FloorTileItemDark
   id: FloorTileItemDarkSquiggly
-  name: dark horizontal squiggly tile
+  name: dark steel horizontal squiggly tile
   components:
   - type: Sprite
     state: dark-squiggly
@@ -105,7 +105,7 @@
 - type: entity
   parent: FloorTileItemDark
   id: FloorTileItemDarkSquigglyVertical
-  name: dark vertical squiggly tile
+  name: dark steel vertical squiggly tile
   components:
   - type: Sprite
     state: dark-squiggly-vertical
@@ -120,7 +120,7 @@
 - type: entity
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteHorizontalSlatsContinuous
-  name: white horizontal continuous slat tile
+  name: white steel horizontal continuous slat tile
   components:
   - type: Sprite
     state: white-horizontal-slats-continuous
@@ -134,7 +134,7 @@
 - type: entity
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteVerticalSlatsContinuous
-  name: white vertical continuous slat tile
+  name: white steel vertical continuous slat tile
   components:
   - type: Sprite
     state: white-vertical-slats-continuous
@@ -148,7 +148,7 @@
 - type: entity
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteSquiggly
-  name: white horizontal squiggly tile
+  name: white steel horizontal squiggly tile
   components:
   - type: Sprite
     state: white-squiggly
@@ -162,7 +162,7 @@
 - type: entity
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteSquigglyVertical
-  name: white vertical squiggly tile
+  name: white steel vertical squiggly tile
   components:
   - type: Sprite
     state: white-squiggly-vertical
