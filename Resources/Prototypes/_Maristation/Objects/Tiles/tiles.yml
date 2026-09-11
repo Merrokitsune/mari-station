@@ -227,6 +227,20 @@
     stackType: FloorTileSteelDiagonalPlastic
 
 - type: entity
+  name: plastic diagonal mini tile
+  parent: FloorTileItemSteelPlastic
+  id: FloorTileItemSteelDiagonalMiniPlastic
+  components:
+  - type: Sprite
+    state: steel-diagonal-mini-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelDiagonalMiniPlastic
+  - type: Stack
+    stackType: FloorTileSteelDiagonalMiniPlastic
+
+- type: entity
   name: plastic mono tile
   parent: FloorTileItemSteelPlastic
   id: FloorTileItemSteelMonoPlastic
@@ -432,6 +446,20 @@
     stackType: FloorTileDarkDiagonalPlastic
 
 - type: entity
+  name: dark plastic diagonal mini tile
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkDiagonalMiniPlastic
+  components:
+  - type: Sprite
+    state: dark-diagonal-mini-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkDiagonalMiniPlastic
+  - type: Stack
+    stackType: FloorTileDarkDiagonalMiniPlastic
+
+- type: entity
   name: dark plastic mono tile
   parent: FloorTileItemDarkPlastic
   id: FloorTileItemDarkMonoPlastic
@@ -635,6 +663,20 @@
     - FloorWhiteDiagonalPlastic
   - type: Stack
     stackType: FloorTileWhiteDiagonalPlastic
+
+- type: entity
+  name: white plastic diagonal mini tile
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteDiagonalMiniPlastic
+  components:
+  - type: Sprite
+    state: white-diagonal-mini-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteDiagonalMiniPlastic
+  - type: Stack
+    stackType: FloorTileWhiteDiagonalMiniPlastic
 
 - type: entity
   name: white plastic mono tile

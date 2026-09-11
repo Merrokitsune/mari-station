@@ -44,6 +44,12 @@
 
 - type: stack
   parent: BaseTileStack
+  id: FloorTileSteelDiagonalMiniPlastic
+  name: stack-steel-tile-diagonal-mini-plastic
+  spawn: FloorTileItemSteelDiagonalMiniPlastic
+
+- type: stack
+  parent: BaseTileStack
   id: FloorTileSteelMonoPlastic
   name: stack-steel-mono-tile-plastic
   spawn: FloorTileItemSteelMonoPlastic
