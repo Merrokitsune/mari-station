@@ -130,6 +130,14 @@
   itemDrop: FloorTileItemSteelDiagonalPlastic
 
 - type: tile
+  id: FloorSteelDiagonalMiniPlastic
+  parent: BaseStationTile
+  name: tiles-steel-floor-diagonal-mini-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-diagonal-mini-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelDiagonalMiniPlastic
+
+- type: tile
   id: FloorSteelOffsetPlastic
   parent: BaseStationTile
   name: tiles-steel-floor-offset-plastic
@@ -235,6 +243,14 @@
   itemDrop: FloorTileItemDarkDiagonalPlastic
 
 - type: tile
+  id: FloorDarkDiagonalMiniPlastic
+  parent: BaseStationTile
+  name: tiles-dark-floor-diagonal-mini-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-diagonal-mini-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemDarkDiagonalMiniPlastic
+
+- type: tile
   id: FloorDarkOffsetPlastic
   parent: BaseStationTile
   name: tiles-dark-floor-offset-plastic
@@ -338,6 +354,14 @@
   sprite: /Textures/_Maristation/Tiles/Basic/White/white-diagonal-plastic.png
   variants: 4
   itemDrop: FloorTileItemWhiteDiagonalPlastic
+
+- type: tile
+  id: FloorWhiteDiagonalMiniPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-diagonal-mini-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-diagonal-mini-plastic.png # Mari
+  variants: 4
+  itemDrop: FloorTileItemWhiteDiagonalMiniPlastic
 
 - type: tile
   id: FloorWhiteOffsetPlastic

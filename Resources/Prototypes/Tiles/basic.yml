@@ -84,7 +84,7 @@
   id: FloorSteelDiagonalMini
   parent: BaseStationTile
   name: tiles-steel-floor-diagonal-mini
-  sprite: /Textures/_Funkystation/Tiles/steel_diagonal_mini.png
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-diagonal-mini.png # Mari
   variants: 4
   itemDrop: FloorTileItemSteelDiagonalMini
 
@@ -246,7 +246,7 @@
   id: FloorWhiteDiagonalMini
   parent: BaseStationTile
   name: tiles-white-floor-diagonal-mini
-  sprite: /Textures/_Funkystation/Tiles/white_diagonal_mini.png
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-diagonal-mini.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile
@@ -375,7 +375,7 @@
   id: FloorDarkDiagonalMini
   parent: BaseStationTile
   name: tiles-dark-floor-diagonal-mini
-  sprite: /Textures/_Funkystation/Tiles/dark_diagonal_mini.png # Funky
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-diagonal-mini.png # Mari
   variants: 4
   footstepSounds:
     collection: FootstepTile

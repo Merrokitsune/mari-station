@@ -26,6 +26,12 @@
             "name": "steel-diagonal-plastic"
         },
         {
+            "name": "steel-diagonal-mini"
+        },
+        {
+            "name": "steel-diagonal-mini-plastic"
+        },
+        {
             "name": "steel-mono"
         },
         {
@@ -118,6 +124,12 @@
             "name": "dark-diagonal-plastic"
         },
         {
+            "name": "dark-diagonal-mini"
+        },
+        {
+            "name": "dark-diagonal-mini-plastic"
+        },
+        {
             "name": "dark-mono"
         },
         {
@@ -208,6 +220,12 @@
         },
         {
             "name": "white-diagonal-plastic"
+        },
+        {
+            "name": "white-diagonal-mini"
+        },
+        {
+            "name": "white-diagonal-mini-plastic"
         },
         {
             "name": "white-mono"
