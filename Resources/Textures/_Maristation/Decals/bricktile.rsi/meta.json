@@ -1,7 +1,7 @@
 {
     "version": 1,
-    "license": "CC0-1.0",
-    "copyright": "Edited by Flareguy, originally created by github user @moonheart08",
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from https://github.com/BeeStation/BeeStation-Hornet/commit/339fd6ea6358a7617109f402015bb82a7a084444 and edited by Merrokitsune with coloring taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/662c08272acd7be79531550919f56f846726eabb.",
     "size": {
         "x": 32,
         "y": 32
