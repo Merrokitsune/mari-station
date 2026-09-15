@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from tgstation at commits https://github.com/BeeStation/BeeStation-Hornet/commit/e868c0382c02d89b7af56354f8f9fc0bcaa2f4d1 and https://github.com/BeeStation/BeeStation-Hornet/commit/4c4bea2b5af04265cc43e60083ebdbf0875854e1 with inhands from commit https://github.com/tgstation/tgstation/commit/c2ce4562fcdaee647c7cbcc3997f94f804707ed8, and edited by Merrokitsune with coloring taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/662c08272acd7be79531550919f56f846726eabb. Additional attributions available in the Resources/Textures/Tiles/attributions.yml file.",
+    "copyright": "Taken from beestation at commits https://github.com/BeeStation/BeeStation-Hornet/commit/e868c0382c02d89b7af56354f8f9fc0bcaa2f4d1 and https://github.com/BeeStation/BeeStation-Hornet/commit/4c4bea2b5af04265cc43e60083ebdbf0875854e1 with inhands taken from tgstation at commit https://github.com/tgstation/tgstation/commit/c2ce4562fcdaee647c7cbcc3997f94f804707ed8, and edited by Merrokitsune with coloring taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/662c08272acd7be79531550919f56f846726eabb. Additional attributions available in the Resources/Textures/Tiles/attributions.yml file.",
     "size": {
         "x": 32,
         "y": 32
