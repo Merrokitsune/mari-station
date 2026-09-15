@@ -300,6 +300,24 @@
         {
             "name": "white-inhand-left",
             "directions": 4
+        },
+        {
+            "name": "checker-dark"
+        },
+        {
+            "name": "checker-light"
+        },
+        {
+            "name": "checker-kitchen"
+        },
+        {
+            "name": "checker-laundry"
+        },
+        {
+            "name": "checker-clown"
+        },
+        {
+            "name": "checker-bar"
         }
     ]
 }

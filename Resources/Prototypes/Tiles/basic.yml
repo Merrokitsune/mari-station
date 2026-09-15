@@ -11,7 +11,7 @@
   id: FloorSteelCheckerLight
   parent: BaseStationTile
   name: tiles-steel-floor-checker-light
-  sprite: /Textures/_Funkystation/Tiles/cafeteria.png # Funky
+  sprite: /Textures/_Maristation/Tiles/checker_light.png # Mari
   variants: 4
   itemDrop: FloorTileItemSteelCheckerLight
 
@@ -19,7 +19,7 @@
   id: FloorSteelCheckerDark
   parent: BaseStationTile
   name: tiles-steel-floor-checker-dark
-  sprite: /Textures/_Funkystation/Tiles/checker_dark.png # Funky
+  sprite: /Textures/_Maristation/Tiles/checker_dark.png # Mari
   variants: 4
   itemDrop: FloorTileItemSteelCheckerDark
 
