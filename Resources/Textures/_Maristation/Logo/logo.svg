@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="50mm"
+   viewBox="0 0 100 50"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (1:1.4.4+202605061436+dcaf3e7d9e)"
+   sodipodi:docname="placeholder_logo.svg"
+   inkscape:export-filename="placeholder_logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.43"
+     inkscape:cx="173.42657"
+     inkscape:cy="86.713287"
+     inkscape:window-width="1600"
+     inkscape:window-height="828"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999999"
+       spacingy="0.99999999"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#44cb75;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:5"
+       id="rect1"
+       width="85"
+       height="5"
+       x="7.5"
+       y="10" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:12.7px;line-height:0;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#44cb75;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:5"
+       x="7.2643557"
+       y="23.875977"
+       id="text5"><tspan
+         sodipodi:role="line"
+         style="stroke-width:1;fill:#44cb75;fill-opacity:1"
+         x="7.2643557"
+         y="23.875977"
+         id="tspan6">SPACE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:12.7px;line-height:0;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#44cb75;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:5"
+       x="7.5"
+       y="34"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="stroke-width:1;fill:#44cb75;fill-opacity:1"
+         x="7.5"
+         y="34">STATION</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:28.0458px;line-height:0;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#44cb75;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:5"
+       x="59.674911"
+       y="34"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-size:28.0458px;stroke-width:1;fill:#44cb75;fill-opacity:1"
+         x="59.674911"
+         y="34">14</tspan></text>
+    <rect
+       style="fill:#44cb75;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:5"
+       id="rect8"
+       width="85"
+       height="5"
+       x="7.5"
+       y="35" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:7.05556px;line-height:0;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#44cb75;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:5"
+       x="50"
+       y="45"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="font-size:7.05556px;stroke-width:1;fill:#44cb75;fill-opacity:1"
+         x="50"
+         y="45">MARISTATION BUILD</tspan></text>
+    <path
+       style="fill:#44cb75;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-miterlimit:5"
+       d="M 50,10 75,5 H 25 Z"
+       id="path9" />
+  </g>
+</svg>
