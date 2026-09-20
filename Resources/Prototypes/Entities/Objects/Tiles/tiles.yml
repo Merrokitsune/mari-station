@@ -89,7 +89,7 @@
     node: darktile
 
 - type: entity
-  name: dark steel herringbone
+  name: dark steel herringbone tile # Mari - Rename for easy access.
   parent: FloorTileItemDark
   id: FloorTileItemDarkHerringbone
   components:
@@ -131,7 +131,7 @@
     stackType: FloorTileDarkMono
 
 - type: entity
-  name: dark steel pavement
+  name: dark steel pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemDark
   id: FloorTileItemDarkPavement
   components:
@@ -145,7 +145,7 @@
     stackType: FloorTileDarkPavement
 
 - type: entity
-  name: dark steel vertical pavement
+  name: dark steel vertical pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemDark
   id: FloorTileItemDarkPavementVertical
   components:
@@ -250,7 +250,7 @@
     stackType: FloorTileSteelHorizontalSlatsBordered
 
 - type: entity
-  name: steel herringbone
+  name: steel herringbone tile # Mari - Rename for easy access.
   parent: FloorTileItemSteel
   id: FloorTileItemSteelHerringbone
   components:
@@ -278,7 +278,7 @@
     stackType: FloorTileSteelMini
 
 - type: entity
-  name: steel pavement
+  name: steel pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemSteel
   id: FloorTileItemSteelPavement
   components:
@@ -292,7 +292,7 @@
     stackType: FloorTileSteelPavement
 
 - type: entity
-  name: steel vertical pavement
+  name: steel vertical pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemSteel
   id: FloorTileItemSteelPavementVertical
   components:
@@ -327,7 +327,7 @@
     node: whitetile
 
 - type: entity
-  name: white steel herringbone
+  name: white steel herringbone tile # Mari - Rename for easy access.
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteHerringbone
   components:
@@ -369,7 +369,7 @@
     stackType: FloorTileWhiteMono
 
 - type: entity
-  name: white steel pavement
+  name: white steel pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemWhite
   id: FloorTileItemWhitePavement
   components:
@@ -383,7 +383,7 @@
     stackType: FloorTileWhitePavement
 
 - type: entity
-  name: white steel vertical pavement
+  name: white steel vertical pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemWhite
   id: FloorTileItemWhitePavementVertical
   components:

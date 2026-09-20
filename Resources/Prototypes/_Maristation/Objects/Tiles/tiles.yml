@@ -291,7 +291,7 @@
     stackType: FloorTileSteelMiniPlastic
 
 - type: entity
-  name: plastic pavement
+  name: plastic pavement tile
   parent: FloorTileItemSteel
   id: FloorTileItemSteelPavementPlastic
   components:
@@ -305,7 +305,7 @@
     stackType: FloorTileSteelPavementPlastic
 
 - type: entity
-  name: plastic vertical pavement
+  name: plastic vertical pavement tile
   parent: FloorTileItemSteel
   id: FloorTileItemSteelPavementVerticalPlastic
   components:
@@ -319,7 +319,7 @@
     stackType: FloorTileSteelPavementVerticalPlastic
 
 - type: entity
-  name: plastic herringbone
+  name: plastic herringbone tile
   parent: FloorTileItemSteelPlastic
   id: FloorTileItemSteelHerringbonePlastic
   components:
@@ -528,7 +528,7 @@
     stackType: FloorTileDarkMiniPlastic
 
 - type: entity
-  name: dark plastic pavement
+  name: dark plastic pavement tile
   parent: FloorTileItemDark
   id: FloorTileItemDarkPavementPlastic
   components:
@@ -542,7 +542,7 @@
     stackType: FloorTileDarkPavementPlastic
 
 - type: entity
-  name: dark plastic vertical pavement
+  name: dark plastic vertical pavement tile
   parent: FloorTileItemDark
   id: FloorTileItemDarkPavementVerticalPlastic
   components:
@@ -556,7 +556,7 @@
     stackType: FloorTileDarkPavementVerticalPlastic
 
 - type: entity
-  name: dark plastic herringbone
+  name: dark plastic herringbone tile
   parent: FloorTileItemDarkPlastic
   id: FloorTileItemDarkHerringbonePlastic
   components:
@@ -765,7 +765,7 @@
     stackType: FloorTileWhiteMiniPlastic
 
 - type: entity
-  name: white plastic pavement
+  name: white plastic pavement tile
   parent: FloorTileItemWhite
   id: FloorTileItemWhitePavementPlastic
   components:
@@ -779,7 +779,7 @@
     stackType: FloorTileWhitePavementPlastic
 
 - type: entity
-  name: white plastic vertical pavement
+  name: white plastic vertical pavement tile
   parent: FloorTileItemWhite
   id: FloorTileItemWhitePavementVerticalPlastic
   components:
@@ -793,7 +793,7 @@
     stackType: FloorTileWhitePavementVerticalPlastic
 
 - type: entity
-  name: white plastic herringbone
+  name: white plastic herringbone tile
   parent: FloorTileItemWhitePlastic
   id: FloorTileItemWhiteHerringbonePlastic
   components:
