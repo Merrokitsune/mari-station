@@ -109,6 +109,7 @@
   parent: BaseStationTile
   name: tiles-techmaint2-floor
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-maint.png # Mari
+  variants: 4
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemSteelMaint
@@ -346,6 +347,7 @@
   parent: BaseStationTile
   name: tiles-techmaint-floor-dark
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-maint.png # Mari
+  variants: 4
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemTechmaintDark

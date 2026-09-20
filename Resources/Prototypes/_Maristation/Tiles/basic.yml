@@ -127,6 +127,7 @@
   parent: BaseStationTile
   name: tiles-techmaint-floor-white
   sprite: /Textures/_Maristation/Tiles/Basic/white-maint.png
+  variants: 4
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemTechmaintWhite
@@ -250,7 +251,8 @@
   id: FloorTechMaintSteelPlastic
   parent: BaseStationTile
   name: tiles-techmaint-floor-steel-plastic
-  sprite: /Textures/_Maristation/Tiles/Basic/Dark/steel-maint-plastic.png
+  sprite: /Textures/_Maristation/Tiles/Basic/Steel/steel-maint-plastic.png
+  variants: 4
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemTechmaintSteelPlastic
@@ -401,6 +403,7 @@
   parent: BaseStationTile
   name: tiles-techmaint-floor-dark-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-maint-plastic.png
+  variants: 4
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemTechmaintDarkPlastic
@@ -550,7 +553,8 @@
   id: FloorTechMaintWhitePlastic
   parent: BaseStationTile
   name: tiles-techmaint-floor-white-plastic
-  sprite: /Textures/_Maristation/Tiles/Basic/white-maint-plastic.png
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-maint-plastic.png
+  variants: 4
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemTechmaintWhitePlastic
