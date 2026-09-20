@@ -98,6 +98,12 @@
             "name": "steel-squiggly-vertical-plastic"
         },
         {
+            "name": "steel-maint"
+        },
+        {
+            "name": "steel-maint-plastic"
+        },
+        {
             "name": "steel-inhand-right",
             "directions": 4
         },
@@ -196,6 +202,12 @@
             "name": "dark-squiggly-vertical-plastic"
         },
         {
+            "name": "dark-maint"
+        },
+        {
+            "name": "dark-maint-plastic"
+        },
+        {
             "name": "dark-inhand-right",
             "directions": 4
         },
@@ -292,6 +304,12 @@
         },
         {
             "name": "white-squiggly-vertical-plastic"
+        },
+        {
+            "name": "white-maint"
+        },
+        {
+            "name": "white-maint-plastic"
         },
         {
             "name": "white-inhand-right",

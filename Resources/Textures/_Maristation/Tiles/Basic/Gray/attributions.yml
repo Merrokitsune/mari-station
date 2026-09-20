@@ -34,6 +34,14 @@
   source: "https://github.com/BeeStation/BeeStation-Hornet/commit/339fd6ea6358a7617109f402015bb82a7a084444"
 
 - files:
+  - gray-maint.png
+  - gray-mmaint-plastic.png
+
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from BeeStation/BeeStation-Hornet at commit https://github.com/BeeStation/BeeStation-Hornet/commit/339fd6ea6358a7617109f402015bb82a7a084444 and edited by Merrokitsune with coloring taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/662c08272acd7be79531550919f56f846726eabb. herringbone and slat sprites are based on sprites taken from space-wizards/space-station-14 at commit https://github.com/space-wizards/space-station-14/commit/4645e40b607ac25eac742c5423c40260006b0856. squiggly and slat-continuous sprites are based on sprites taken from space-wizards/space-station14 at commit https://github.com/space-wizards/space-station-14/commit/9af0b354e36231d6101306bfe76f9788d2f7af79. Additional parts taken from Baystation12 at commit https://github.com/Baystation12/Baystation12/commit/2b812da425eb004aaf866b9459c0735890475a58 with editing done by Merrokitsune."
+  source: "https://github.com/BeeStation/BeeStation-Hornet/commit/339fd6ea6358a7617109f402015bb82a7a084444"
+
+- files:
   - gray-damaged.png
   license: "CC-BY-SA-3.0"
   copyright: "Damage overlays by WJohn (GitHub) with 3rd tile from left to right edited by Merrokitsune with plating taken from BeeStation/BeeStation-Hornet at commit https://github.com/BeeStation/BeeStation-Hornet/commit/f2d6fbdf36aa0951049498cf28e028a38e32fe0b and edited by Merrokitsune with parts taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/662c08272acd7be79531550919f56f846726eabb. Gray tile taken from BeeStation/BeeStation-Hornet at commit https://github.com/BeeStation/BeeStation-Hornet/commit/f2d6fbdf36aa0951049498cf28e028a38e32fe0b and edited by Merrokitsune with coloring taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/662c08272acd7be79531550919f56f846726eabb."
