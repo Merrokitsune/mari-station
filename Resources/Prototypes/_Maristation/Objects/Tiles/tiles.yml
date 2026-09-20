@@ -193,7 +193,7 @@
     - Plating
     - FloorTechMaintWhite
   - type: Stack
-    stackType: FloorTileTechmaintWhite
+    stackType: FloorTileWhiteMaint
 
 ######## Plastic
 
@@ -432,7 +432,7 @@
     - Plating
     - FloorTechMaintSteelPlastic
   - type: Stack
-    stackType: FloorTileTechmaintSteelPlastic
+    stackType: FloorTileSteelMaintPlastic
 
 #### DARK
 
@@ -669,7 +669,7 @@
     - Plating
     - FloorTechMaintDarkPlastic
   - type: Stack
-    stackType: FloorTileTechmaintDarkPlastic
+    stackType: FloorTileDarkMaintPlastic
 
 #### WHITE
 
@@ -906,4 +906,4 @@
     - Plating
     - FloorTechMaintWhitePlastic
   - type: Stack
-    stackType: FloorTileTechmaintWhitePlastic
+    stackType: FloorTileWhiteMaintPlastic
