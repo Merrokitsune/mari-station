@@ -58,6 +58,8 @@
   - type: Stack
     stackType: FloorTileSteelSquigglyVertical
 
+# id: FloorTileItemSteelMaint # Already exists.
+
 #### DARK
 
 - type: entity
@@ -116,6 +118,8 @@
   - type: Stack
     stackType: FloorTileDarkSquigglyVertical
 
+# id: FloorTileItemTechmaintDark # Already exists.
+
 #### WHITE
 - type: entity
   parent: FloorTileItemWhite
@@ -172,6 +176,24 @@
     - FloorWhiteSquigglyVertical
   - type: Stack
     stackType: FloorTileWhiteSquigglyVertical
+
+- type: entity
+  parent: FloorTileItemBase
+  id: FloorTileItemTechmaintWhite
+  name: white techmaint floor
+  components:
+  - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    state: white-maint
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: white
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorTechMaintWhite
+  - type: Stack
+    stackType: FloorTileTechmaintWhite
 
 ######## Plastic
 
@@ -394,6 +416,24 @@
   - type: Stack
     stackType: FloorTileSteelSquigglyVerticalPlastic
 
+- type: entity
+  parent: FloorTileItemBase
+  id: FloorTileItemTechmaintSteelPlastic
+  name: plastic techmaint floor
+  components:
+  - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    state: steel-maint-plastic
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: steel
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorTechMaintSteelPlastic
+  - type: Stack
+    stackType: FloorTileTechmaintSteelPlastic
+
 #### DARK
 
 - type: entity
@@ -613,6 +653,24 @@
   - type: Stack
     stackType: FloorTileDarkSquigglyVerticalPlastic
 
+- type: entity
+  parent: FloorTileItemBase
+  id: FloorTileItemTechmaintDarkPlastic
+  name: dark plastic techmaint floor
+  components:
+  - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    state: dark-maint-plastic
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: dark
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorTechMaintDarkPlastic
+  - type: Stack
+    stackType: FloorTileTechmaintDarkPlastic
+
 #### WHITE
 
 - type: entity
@@ -831,3 +889,21 @@
     - FloorWhiteSquigglyVerticalPlastic
   - type: Stack
     stackType: FloorTileWhiteSquigglyVerticalPlastic
+
+- type: entity
+  parent: FloorTileItemBase
+  id: FloorTileItemTechmaintWhitePlastic
+  name: white plastic techmaint floor
+  components:
+  - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    state: white-maint-plastic
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: white
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorTechMaintWhitePlastic
+  - type: Stack
+    stackType: FloorTileTechmaintWhitePlastic

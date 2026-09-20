@@ -36,6 +36,8 @@
   variants: 4
   itemDrop: FloorTileItemSteelSquigglyVertical
 
+# Steel maint exists as FloorTechMaint2.
+
 #### DARK
 - type: tile
   parent: BaseStationTile
@@ -77,6 +79,8 @@
     collection: FootstepTile
   itemDrop: FloorTileItemDarkSquigglyVertical
 
+# Dark maint exists as FloorTechMaintDark
+
 #### WHITE
 - type: tile
   parent: BaseStationTile
@@ -117,6 +121,15 @@
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemWhiteSquigglyVertical
+
+- type: tile
+  id: FloorTechMaintWhite
+  parent: BaseStationTile
+  name: tiles-techmaint-floor-white
+  sprite: /Textures/_Maristation/Tiles/Basic/white-maint.png
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemTechmaintWhite
 
 ######## PLASTIC
 
@@ -232,6 +245,15 @@
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-squiggly-vertical-plastic.png
   variants: 4
   itemDrop: FloorTileItemSteelSquigglyVerticalPlastic
+
+- type: tile
+  id: FloorTechMaintSteelPlastic
+  parent: BaseStationTile
+  name: tiles-techmaint-floor-steel-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/steel-maint-plastic.png
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemTechmaintSteelPlastic
 
 ### DARK
 - type: tile
@@ -374,6 +396,15 @@
     collection: FootstepTile
   itemDrop: FloorTileItemDarkSquigglyVerticalPlastic
 
+- type: tile
+  id: FloorTechMaintDarkPlastic
+  parent: BaseStationTile
+  name: tiles-techmaint-floor-dark-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-maint-plastic.png
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemTechmaintDarkPlastic
+
 #### WHITE
 - type: tile
   id: FloorWhiteOffsetPlastic
@@ -514,3 +545,12 @@
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemWhiteSquigglyVerticalPlastic
+
+- type: tile
+  id: FloorTechMaintWhitePlastic
+  parent: BaseStationTile
+  name: tiles-techmaint-floor-white-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/white-maint-plastic.png
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemTechmaintWhitePlastic

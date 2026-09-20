@@ -108,7 +108,7 @@
   id: FloorTechMaint2
   parent: BaseStationTile
   name: tiles-techmaint2-floor
-  sprite: /Textures/_Funkystation/Tiles/steel_maint.png # Funky
+  sprite: /Textures/_Maristation/Tiles/Gray/gray_maint.png # Mari
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemSteelMaint
@@ -345,7 +345,7 @@
   id: FloorTechMaintDark
   parent: BaseStationTile
   name: tiles-techmaint-floor-dark
-  sprite: /Textures/Tiles/Basic/Dark/dark-maint.png
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-maint.png # Mari
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemTechmaintDark
