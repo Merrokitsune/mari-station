@@ -4,7 +4,7 @@
 #- type: stack
 #  parent: BaseTileStack
 #  id: FloorTileSteelMaint
-#  name: stack-steel-maint
+#  name: stack-steel-maint-floor
 #  spawn: FloorTileItemSteelMaint
 #
 #- type: stack
@@ -16,24 +16,24 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhiteMaint
-  name: stack-white-maint
+  name: stack-white-maint-floor
   spawn: FloorTileItemWhiteMaint
 
 ## PLASTIC
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelMaintPlastic
-  name: stack-steel-maint-plastic
+  name: stack-steel-maint-floor-plastic
   spawn: FloorTileItemSteelMaintPlastic
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkMaintPlastic
-  name: stack-dark-maint-plastic
+  name: stack-dark-maint-floor-plastic
   spawn: FloorTileItemDarkMaintPlastic
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhiteMaintPlastic
-  name: stack-white-maint-plastic
+  name: stack-white-maint-floor-plastic
   spawn: FloorTileItemWhiteMaintPlastic
