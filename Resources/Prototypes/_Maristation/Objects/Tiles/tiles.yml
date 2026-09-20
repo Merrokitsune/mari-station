@@ -180,7 +180,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemTechmaintWhite
-  name: white techmaint floor
+  name: white maint floor
   components:
   - type: Sprite
     sprite: _Maristation/Objects/Tiles/tile.rsi
@@ -419,7 +419,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemTechmaintSteelPlastic
-  name: plastic techmaint floor
+  name: plastic maint floor
   components:
   - type: Sprite
     sprite: _Maristation/Objects/Tiles/tile.rsi
@@ -656,7 +656,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemTechmaintDarkPlastic
-  name: dark plastic techmaint floor
+  name: dark plastic maint floor
   components:
   - type: Sprite
     sprite: _Maristation/Objects/Tiles/tile.rsi
@@ -893,7 +893,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemTechmaintWhitePlastic
-  name: white plastic techmaint floor
+  name: white plastic maint floor
   components:
   - type: Sprite
     sprite: _Maristation/Objects/Tiles/tile.rsi

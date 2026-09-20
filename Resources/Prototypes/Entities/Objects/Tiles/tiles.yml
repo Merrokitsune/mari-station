@@ -465,7 +465,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemTechmaintDark
-  name: dark techmaint floor
+  name: dark maint floor # Mari - Rename for easy access.
   components:
   - type: Sprite
     sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
