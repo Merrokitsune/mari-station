@@ -4,9 +4,9 @@
   name: reinforced plasma window
   components:
   - type: Sprite
-    sprite: Structures/Windows/window-plasma-reinf.rsi
+    sprite: _Maristation/Structures/Windows/window-plasma-reinf.rsi # Mari
   - type: Icon
-    sprite: Structures/Windows/window-plasma-reinf.rsi
+    sprite: _Maristation/Structures/Windows/window-plasma-reinf.rsi # Mari
     state: full
   - type: Damageable
     damageModifierSet: GlassReinforcedPlasmaMod
@@ -40,7 +40,7 @@
     damageDivisor: 6
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks.rsi
+      sprite: _Maristation/Structures/Windows/cracks.rsi # Mari
   - type: StaticPrice
     price: 132
 
@@ -50,10 +50,10 @@
   name: directional reinforced plasma window
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: plasma_reinforced_window
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: plasma_reinforced_window
   - type: Construction
     graph: WindowDirectional
@@ -64,7 +64,7 @@
     damageDivisor: 3
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks_directional.rsi
+      sprite: _Maristation/Structures/Windows/cracks_directional.rsi # Mari
   - type: Damageable
     damageModifierSet: GlassReinforcedPlasmaMod
   - type: RadiationBlocker
@@ -95,10 +95,10 @@
   suffix: Corner
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: plasma_reinforced_window_corner
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: plasma_reinforced_window_corner
   - type: Fixtures
     fixtures:
@@ -118,7 +118,7 @@
     thresholds: [5, 10, 20]
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks_directional_corner.rsi
+      sprite: _Maristation/Structures/Windows/cracks_directional_corner.rsi # Mari
 
 - type: entity
   parent: ReinforcedPlasmaWindow
@@ -131,7 +131,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/window-diagonal-plasma-reinf.rsi
+    sprite: _Maristation/Structures/Windows/window-diagonal-plasma-reinf.rsi # Mari
     state: state0
   - type: Tag
     tags:
@@ -142,7 +142,7 @@
     key: walls
     base: state
   - type: Icon
-    sprite: Structures/Windows/window-diagonal-plasma-reinf.rsi
+    sprite: _Maristation/Structures/Windows/window-diagonal-plasma-reinf.rsi # Mari
     state: state0
   - type: Fixtures
     fixtures:
@@ -165,7 +165,7 @@
     - East
   - type: DamageVisuals
     damageOverlay:
-      sprite: Structures/Windows/cracks-diagonal.rsi
+      sprite: _Maristation/Structures/Windows/cracks-diagonal.rsi # Mari
   - type: Construction
     graph: WindowDiagonal
     node: reinforcedPlasmaWindowDiagonal
