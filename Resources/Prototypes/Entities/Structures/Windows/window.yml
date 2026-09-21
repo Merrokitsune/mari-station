@@ -78,6 +78,7 @@
 - type: entity
   parent: [ BaseWindowStructure, StructureHealthBarrier ]
   id: Window
+  name: glass window # Mari - Rename for ease of access.
   components:
   - type: Sprite
     sprite: _Maristation/Structures/Windows/window-base.rsi # Mari
@@ -104,7 +105,7 @@
 - type: entity
   parent: Window
   id: TintedWindow
-  name: tinted window
+  name: tinted glass window # Mari - Rename for ease of access.
   components:
   - type: Sprite
     sprite: _Maristation/Structures/Windows/window-tinted.rsi # Mari
@@ -196,6 +197,7 @@
 - type: entity
   parent: [ BaseWindowStructureDirectional, StructureHealthBarrierWeak ]
   id: WindowDirectional
+  name: directional glass window # Mari - Rename for ease of access.
   components:
   - type: Sprite
     sprite: _Maristation/Structures/Windows/directional.rsi # Mari
@@ -259,7 +261,7 @@
 - type: entity
   id: WindowFrostedDirectional
   parent: WindowDirectional
-  name: directional frosted window
+  name: directional frosted glass window # Mari - Rename for ease of access.
   description: Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter
