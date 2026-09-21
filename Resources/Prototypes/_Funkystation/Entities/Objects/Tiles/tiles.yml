@@ -28,7 +28,7 @@
     stackType: FloorTileSteelDiagonal
 
 - type: entity
-  name: offset steel tile
+  name: steel offset tile # Mari - Rename for easy access.
   parent: FloorTileItemSteel
   id: FloorTileItemSteelOffset
   components:
@@ -43,7 +43,7 @@
 
 #White
 - type: entity
-  name: offset white steel tile
+  name: white steel offset tile # Mari - Rename for easy access.
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteOffset
   components:
@@ -114,7 +114,7 @@
     stackType: FloorTileDarkDiagonal
 
 - type: entity
-  name: offset dark steel tile
+  name: dark steel offset tile # Mari - Rename for easy access.
   parent: FloorTileItemDark
   id: FloorTileItemDarkOffset
   components:

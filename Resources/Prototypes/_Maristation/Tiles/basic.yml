@@ -1,0 +1,560 @@
+#### NOTE:
+# These tiles belong to Maristation and are used by Maristation's maps. As a result, Maristation maps are not compatible with upstream Funkystation.
+
+######## STEEL
+
+#### STEEL / GRAY
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelVerticalSlatsContinuous
+  name: tiles-steel-floor-vertical-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-vertical-slats-continuous.png
+  variants: 4
+  itemDrop: FloorTileItemSteelVerticalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelHorizontalSlatsContinuous
+  name: tiles-steel-floor-horizontal-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-horizontal-slats-continuous.png
+  variants: 4
+  itemDrop: FloorTileItemSteelHorizontalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelSquiggly
+  name: tiles-steel-floor-squiggly
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-squiggly.png
+  variants: 4
+  itemDrop: FloorTileItemSteelSquiggly
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelSquigglyVertical
+  name: tiles-steel-floor-squiggly-vertical
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-squiggly-vertical.png
+  variants: 4
+  itemDrop: FloorTileItemSteelSquigglyVertical
+
+# Steel maint exists as FloorTechMaint2.
+
+#### DARK
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkVerticalSlatsContinuous
+  name: tiles-dark-floor-vertical-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-vertical-slats-continuous.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkVerticalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkHorizontalSlatsContinuous
+  name: tiles-dark-floor-horizontal-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-horizontal-slats-continuous.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkHorizontalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkSquiggly
+  name: tiles-dark-floor-squiggly
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-squiggly.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkSquiggly
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkSquigglyVertical
+  name: tiles-dark-floor-squiggly-vertical
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-squiggly-vertical.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkSquigglyVertical
+
+# Dark maint exists as FloorTechMaintDark
+
+#### WHITE
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteVerticalSlatsContinuous
+  name: tiles-white-floor-vertical-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-vertical-slats-continuous.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteVerticalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteHorizontalSlatsContinuous
+  name: tiles-white-floor-horizontal-slats-continuous
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-slats-continuous.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteHorizontalSlatsContinuous
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteSquiggly
+  name: tiles-white-floor-squiggly
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-squiggly.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteSquiggly
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteSquigglyVertical
+  name: tiles-white-floor-squiggly-vertical
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-squiggly-vertical.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteSquigglyVertical
+
+- type: tile
+  id: FloorTechMaintWhite
+  parent: BaseStationTile
+  name: tiles-techmaint-floor-white
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-maint.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemTechmaintWhite
+
+######## PLASTIC
+
+#### STEEL / GRAY
+- type: tile
+  id: FloorSteelOffsetPlastic
+  parent: BaseStationTile
+  name: tiles-steel-floor-offset-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-offset-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelOffsetPlastic
+
+- type: tile
+  id: FloorSteelDiagonalPlastic
+  parent: BaseStationTile
+  name: tiles-steel-floor-diagonal-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-diagonal-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelDiagonalPlastic
+
+- type: tile
+  id: FloorSteelDiagonalMiniPlastic
+  parent: BaseStationTile
+  name: tiles-steel-floor-diagonal-mini-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-diagonal-mini-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelDiagonalMiniPlastic
+
+- type: tile
+  id: FloorSteelMonoPlastic
+  parent: BaseStationTile
+  name: tiles-steel-floor-mono-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-mono-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelMonoPlastic
+
+- type: tile
+  id: FloorSteelMiniPlastic
+  parent: BaseStationTile
+  name: tiles-steel-floor-mini-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-mini-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelMiniPlastic
+
+- type: tile
+  id: FloorSteelPavementPlastic
+  parent: BaseStationTile
+  name: tiles-steel-floor-pavement-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-pavement-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelPavementPlastic
+
+- type: tile
+  id: FloorSteelPavementVerticalPlastic
+  parent: BaseStationTile
+  name: tiles-steel-floor-pavement-vertical-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-pavement-vertical-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelPavementVerticalPlastic
+
+- type: tile
+  id: FloorSteelHerringbonePlastic
+  parent: BaseStationTile
+  name: tiles-steel-floor-herringbone
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-herringbone-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelHerringbonePlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelHorizontalSlatsBorderedPlastic
+  name: tiles-steel-floor-horizontal-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-horizontal-slats-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelHorizontalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelVerticalSlatsBorderedPlastic
+  name: tiles-steel-floor-vertical-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-vertical-slats-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelVerticalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelHorizontalSlatsContinuousPlastic
+  name: tiles-steel-floor-horizontal-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-horizontal-slats-continuous-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelHorizontalSlatsContinuousPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelVerticalSlatsContinuousPlastic
+  name: tiles-steel-floor-vertical-slats-continuousPlastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-vertical-slats-continuous-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelVerticalSlatsContinuousPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelSquigglyPlastic
+  name: tiles-steel-floor-squiggly-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-squiggly-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelSquigglyPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorSteelSquigglyVerticalPlastic
+  name: tiles-steel-floor-squiggly-vertical-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-squiggly-vertical-plastic.png
+  variants: 4
+  itemDrop: FloorTileItemSteelSquigglyVerticalPlastic
+
+- type: tile
+  id: FloorTechMaintSteelPlastic
+  parent: BaseStationTile
+  name: tiles-techmaint-floor-steel-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-maint-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemTechmaintSteelPlastic
+
+### DARK
+- type: tile
+  id: FloorDarkOffsetPlastic
+  parent: BaseStationTile
+  name: tiles-dark-floor-offset-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-offset-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkOffsetPlastic
+
+- type: tile
+  id: FloorDarkDiagonalPlastic
+  parent: BaseStationTile
+  name: tiles-dark-floor-diagonal-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-diagonal-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkDiagonalPlastic
+
+- type: tile
+  id: FloorDarkDiagonalMiniPlastic
+  parent: BaseStationTile
+  name: tiles-dark-floor-diagonal-mini-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-diagonal-mini-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkDiagonalMiniPlastic
+
+- type: tile
+  id: FloorDarkMonoPlastic
+  parent: BaseStationTile
+  name: tiles-dark-floor-mono-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-mono-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkMonoPlastic
+
+- type: tile
+  id: FloorDarkMiniPlastic
+  parent: BaseStationTile
+  name: tiles-dark-floor-mini-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-mini-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkMiniPlastic
+
+- type: tile
+  id: FloorDarkPavementPlastic
+  parent: BaseStationTile
+  name: tiles-dark-floor-pavement-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-pavement-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkPavementPlastic
+
+- type: tile
+  id: FloorDarkPavementVerticalPlastic
+  parent: BaseStationTile
+  name: tiles-dark-floor-pavement-vertical-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-pavement-vertical-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkPavementVerticalPlastic
+
+- type: tile
+  id: FloorDarkHerringbonePlastic
+  parent: BaseStationTile
+  name: tiles-dark-floor-herringbone
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-herringbone-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkHerringbonePlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkHorizontalSlatsBorderedPlastic
+  name: tiles-dark-floor-horizontal-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-horizontal-slats-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkHorizontalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkVerticalSlatsBorderedPlastic
+  name: tiles-dark-floor-vertical-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-vertical-slats-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkVerticalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkVerticalSlatsContinuousPlastic
+  name: tiles-dark-floor-vertical-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-vertical-slats-continuous-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkVerticalSlatsContinuousPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkHorizontalSlatsContinuousPlastic
+  name: tiles-dark-floor-horizontal-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-horizontal-slats-continuous-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkHorizontalSlatsContinuousPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkSquigglyPlastic
+  name: tiles-dark-floor-squiggly-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-squiggly-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkSquigglyPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorDarkSquigglyVerticalPlastic
+  name: tiles-dark-floor-squiggly-vertical-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-squiggly-vertical-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkSquigglyVerticalPlastic
+
+- type: tile
+  id: FloorTechMaintDarkPlastic
+  parent: BaseStationTile
+  name: tiles-techmaint-floor-dark-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/Dark/dark-maint-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemTechmaintDarkPlastic
+
+#### WHITE
+- type: tile
+  id: FloorWhiteOffsetPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-offset-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-offset-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteOffsetPlastic
+
+- type: tile
+  id: FloorWhiteDiagonalPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-diagonal-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-diagonal-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteDiagonalPlastic
+
+- type: tile
+  id: FloorWhiteDiagonalMiniPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-diagonal-mini-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-diagonal-mini-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteDiagonalMiniPlastic
+
+- type: tile
+  id: FloorWhiteMonoPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-mono-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-mono-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteMonoPlastic
+
+- type: tile
+  id: FloorWhiteMiniPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-mini-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-mini-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteMiniPlastic
+
+- type: tile
+  id: FloorWhitePavementPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-pavement-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-pavement-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhitePavementPlastic
+
+- type: tile
+  id: FloorWhitePavementVerticalPlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-pavement-vertical-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-pavement-vertical-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhitePavementVerticalPlastic
+
+- type: tile
+  id: FloorWhiteHerringbonePlastic
+  parent: BaseStationTile
+  name: tiles-white-floor-herringbone
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-herringbone-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteHerringbonePlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteHorizontalSlatsBorderedPlastic
+  name: tiles-white-floor-horizontal-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-slats-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteHorizontalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteVerticalSlatsBorderedPlastic
+  name: tiles-white-floor-vertical-slats-bordered-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-vertical-slats-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteVerticalSlatsBorderedPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteHorizontalSlatsContinuousPlastic
+  name: tiles-white-floor-horizontal-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-horizontal-slats-continuous-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteHorizontalSlatsContinuousPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteVerticalSlatsContinuousPlastic
+  name: tiles-white-floor-vertical-slats-continuous-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-vertical-slats-continuous-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteVerticalSlatsContinuousPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteSquigglyPlastic
+  name: tiles-white-floor-squiggly-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-squiggly-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteSquigglyPlastic
+
+- type: tile
+  parent: BaseStationTile
+  id: FloorWhiteSquigglyVerticalPlastic
+  name: tiles-white-floor-squiggly-vertical-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-squiggly-vertical-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhiteSquigglyVerticalPlastic
+
+- type: tile
+  id: FloorTechMaintWhitePlastic
+  parent: BaseStationTile
+  name: tiles-techmaint-floor-white-plastic
+  sprite: /Textures/_Maristation/Tiles/Basic/White/white-maint-plastic.png
+  variants: 4
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemTechmaintWhitePlastic

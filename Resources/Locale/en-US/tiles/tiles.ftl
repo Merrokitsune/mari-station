@@ -5,12 +5,16 @@ tiles-lattice = lattice
 tiles-lattice-train = train lattice
 tiles-steel-floor = steel tile
 tiles-steel-floor-mini = steel mini-tile
-tiles-steel-floor-pavement = steel pavement
+# \/ Mari - Rename for easy access.
+tiles-steel-floor-pavement = steel pavement tile
+# /\ Mari - Rename for easy access.
 tiles-steel-floor-diagonal = steel diagonal tile
 tiles-steel-floor-offset = offset steel tile
 tiles-steel-floor-mono = steel mono tile
-tiles-steel-floor-pavement-vertical = steel vertical pavement
-tiles-steel-floor-herringbone = steel herringbone
+# \/ Mari - Rename for easy access.
+tiles-steel-floor-pavement-vertical = steel vertical pavement tile
+tiles-steel-floor-herringbone = steel herringbone tile
+# /\ Mari - Rename for easy access.
 tiles-steel-floor-diagonal-mini = steel diagonal mini-tile
 tiles-steel-floor-checker-dark = steel dark checker tile
 tiles-steel-floor-checker-light = steel light checker tile
@@ -21,12 +25,16 @@ tiles-plastic-floor = plastic tile
 tiles-wood = wood
 tiles-white-floor = white steel tile
 tiles-white-floor-mini = white steel mini-tile
-tiles-white-floor-pavement = white steel pavement
+# \/ Mari - Rename for easy access.
+tiles-white-floor-pavement = white steel pavement tile
+# /\ Mari - Rename for easy access.
 tiles-white-floor-diagonal = white steel diagonal tile
 tiles-white-floor-offset = offset white steel tile
 tiles-white-floor-mono = white steel mono tile
-tiles-white-floor-pavement-vertical = white steel vertical pavement
-tiles-white-floor-herringbone = white steel herringbone
+# \/ Mari - Rename for easy access.
+tiles-white-floor-pavement-vertical = white steel vertical pavement tile
+tiles-white-floor-herringbone = white steel herringbone tile
+# /\ Mari - Rename for easy access.
 tiles-white-floor-diagonal-mini = white steel diagonal mini-tile
 tiles-white-floor-slats-continuous = white steel continuous slat tile
 tiles-white-floor-vertical-slats-bordered = white steel vertical bordered slat tile
@@ -34,19 +42,25 @@ tiles-white-floor-horizontal-slats-bordered = white steel horizontal bordered sl
 tiles-plastic-white-floor = white plastic tile
 tiles-dark-floor = dark steel tile
 tiles-dark-floor-mini = dark steel mini-tile
-tiles-dark-floor-pavement = dark steel pavement
+# \/ Mari - Rename for easy access.
+tiles-dark-floor-pavement = dark steel pavement tile
+# /\ Mari - Rename for easy access.
 tiles-dark-floor-diagonal = dark steel diagonal tile
 tiles-dark-floor-offset = offset dark steel tile
 tiles-dark-floor-mono = dark steel mono tile
-tiles-dark-floor-pavement-vertical = dark steel vertical pavement
-tiles-dark-floor-herringbone = dark steel herringbone
+# \/ Mari - Rename for easy access.
+tiles-dark-floor-pavement-vertical = dark steel vertical pavement tile
+tiles-dark-floor-herringbone = dark steel herringbone tile
+# /\ Mari - Rename for easy access.
 tiles-dark-floor-diagonal-mini = dark steel diagonal mini-tile
 tiles-dark-floor-slats-continuous = dark steel continuous slat tile
 tiles-dark-floor-vertical-slats-bordered = dark steel vertical bordered slat tile
 tiles-dark-floor-horizontal-slats-bordered = dark steel horizontal bordered slat tile
 tiles-plastic-dark-floor = dark plastic tile
 tiles-techmaint-floor = techmaint floor
-tiles-techmaint-floor-dark = dark techmaint floor
+# \/ Mari - Rename for easy access.
+tiles-techmaint-floor-dark = dark maintenance floor
+# /\ Mari - Rename for easy access.
 tiles-reinforced-floor = reinforced floor
 tiles-super-reinforced-floor = hardened reinforced floor
 tiles-mono-floor = mono floor

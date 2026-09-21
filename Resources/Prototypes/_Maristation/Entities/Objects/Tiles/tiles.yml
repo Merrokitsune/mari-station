@@ -1,0 +1,909 @@
+######## Steel
+
+#### STEEL / GRAY
+
+- type: entity
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelHorizontalSlatsContinuous
+  name: steel horizontal continuous slat tile
+  components:
+  - type: Sprite
+    state: steel-horizontal-slats-continuous
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelHorizontalSlatsContinuous
+  - type: Stack
+    stackType: FloorTileSteelHorizontalSlatsContinuous
+
+- type: entity
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelVerticalSlatsContinuous
+  name: steel vertical continuous slat tile
+  components:
+  - type: Sprite
+    state: steel-vertical-slats-continuous
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelVerticalSlatsContinuous
+  - type: Stack
+    stackType: FloorTileSteelVerticalSlatsContinuous
+
+- type: entity
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelSquiggly
+  name: steel horizontal squiggly tile
+  components:
+  - type: Sprite
+    state: steel-squiggly
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelSquiggly
+  - type: Stack
+    stackType: FloorTileSteelSquiggly
+
+- type: entity
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelSquigglyVertical
+  name: steel vertical squiggly tile
+  components:
+  - type: Sprite
+    state: steel-squiggly-vertical
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelSquigglyVertical
+  - type: Stack
+    stackType: FloorTileSteelSquigglyVertical
+
+# id: FloorTileItemSteelMaint # Already exists.
+
+#### DARK
+
+- type: entity
+  parent: FloorTileItemDark
+  id: FloorTileItemDarkHorizontalSlatsContinuous
+  name: dark steel horizontal continuous slat tile
+  components:
+  - type: Sprite
+    state: dark-horizontal-slats-continuous
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkHorizontalSlatsContinuous
+  - type: Stack
+    stackType: FloorTileDarkHorizontalSlatsContinuous
+
+- type: entity
+  parent: FloorTileItemDark
+  id: FloorTileItemDarkVerticalSlatsContinuous
+  name: dark steel vertical continuous slat tile
+  components:
+  - type: Sprite
+    state: dark-vertical-slats-continuous
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkVerticalSlatsContinuous
+  - type: Stack
+    stackType: FloorTileDarkVerticalSlatsContinuous
+
+- type: entity
+  parent: FloorTileItemDark
+  id: FloorTileItemDarkSquiggly
+  name: dark steel horizontal squiggly tile
+  components:
+  - type: Sprite
+    state: dark-squiggly
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkSquiggly
+  - type: Stack
+    stackType: FloorTileDarkSquiggly
+
+- type: entity
+  parent: FloorTileItemDark
+  id: FloorTileItemDarkSquigglyVertical
+  name: dark steel vertical squiggly tile
+  components:
+  - type: Sprite
+    state: dark-squiggly-vertical
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkSquigglyVertical
+  - type: Stack
+    stackType: FloorTileDarkSquigglyVertical
+
+# id: FloorTileItemTechmaintDark # Already exists.
+
+#### WHITE
+- type: entity
+  parent: FloorTileItemWhite
+  id: FloorTileItemWhiteHorizontalSlatsContinuous
+  name: white steel horizontal continuous slat tile
+  components:
+  - type: Sprite
+    state: white-horizontal-slats-continuous
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteHorizontalSlatsContinuous
+  - type: Stack
+    stackType: FloorTileWhiteHorizontalSlatsContinuous
+
+- type: entity
+  parent: FloorTileItemWhite
+  id: FloorTileItemWhiteVerticalSlatsContinuous
+  name: white steel vertical continuous slat tile
+  components:
+  - type: Sprite
+    state: white-vertical-slats-continuous
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteVerticalSlatsContinuous
+  - type: Stack
+    stackType: FloorTileWhiteVerticalSlatsContinuous
+
+- type: entity
+  parent: FloorTileItemWhite
+  id: FloorTileItemWhiteSquiggly
+  name: white steel horizontal squiggly tile
+  components:
+  - type: Sprite
+    state: white-squiggly
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteSquiggly
+  - type: Stack
+    stackType: FloorTileWhiteSquiggly
+
+- type: entity
+  parent: FloorTileItemWhite
+  id: FloorTileItemWhiteSquigglyVertical
+  name: white steel vertical squiggly tile
+  components:
+  - type: Sprite
+    state: white-squiggly-vertical
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteSquigglyVertical
+  - type: Stack
+    stackType: FloorTileWhiteSquigglyVertical
+
+- type: entity
+  parent: FloorTileItemBase
+  id: FloorTileItemTechmaintWhite
+  name: white maint floor
+  components:
+  - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    state: white-maint
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: white
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorTechMaintWhite
+  - type: Stack
+    stackType: FloorTileWhiteMaint
+
+######## Plastic
+
+#### STEEL / GRAY
+
+- type: entity
+  name: plastic tile
+  parent: FloorTileItemBase
+  id: FloorTileItemSteelPlastic
+  components:
+  - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    state: steel-plastic
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: steel-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorPlastic
+  - type: Stack
+    stackType: FloorTileSteelPlastic
+  #- type: Construction # Mari - Not yet implemented.
+  #  graph: TileSteelPlastic # Mari - Not yet implemented.
+  #  node: steeltileplastic # Mari - Not yet implemented.
+
+- type: entity
+  name: plastic offset tile
+  parent: FloorTileItemSteelPlastic
+  id: FloorTileItemSteelOffsetPlastic
+  components:
+  - type: Sprite
+    state: steel-offset-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelOffsetPlastic
+  - type: Stack
+    stackType: FloorTileSteelOffsetPlastic
+
+- type: entity
+  name: plastic diagonal tile
+  parent: FloorTileItemSteelPlastic
+  id: FloorTileItemSteelDiagonalPlastic
+  components:
+  - type: Sprite
+    state: steel-diagonal-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelDiagonalPlastic
+  - type: Stack
+    stackType: FloorTileSteelDiagonalPlastic
+
+- type: entity
+  name: plastic diagonal mini tile
+  parent: FloorTileItemSteelPlastic
+  id: FloorTileItemSteelDiagonalMiniPlastic
+  components:
+  - type: Sprite
+    state: steel-diagonal-mini-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelDiagonalMiniPlastic
+  - type: Stack
+    stackType: FloorTileSteelDiagonalMiniPlastic
+
+- type: entity
+  name: plastic mono tile
+  parent: FloorTileItemSteelPlastic
+  id: FloorTileItemSteelMonoPlastic
+  components:
+  - type: Sprite
+    state: steel-mono-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelMonoPlastic
+  - type: Stack
+    stackType: FloorTileSteelMonoPlastic
+
+- type: entity
+  name: plastic mini tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelMiniPlastic
+  components:
+  - type: Sprite
+    state: steel-mini-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelMiniPlastic
+  - type: Stack
+    stackType: FloorTileSteelMiniPlastic
+
+- type: entity
+  name: plastic pavement tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelPavementPlastic
+  components:
+  - type: Sprite
+    state: steel-pavement-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelPavementPlastic
+  - type: Stack
+    stackType: FloorTileSteelPavementPlastic
+
+- type: entity
+  name: plastic vertical pavement tile
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelPavementVerticalPlastic
+  components:
+  - type: Sprite
+    state: steel-pavement-vertical-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelPavementVerticalPlastic
+  - type: Stack
+    stackType: FloorTileSteelPavementVerticalPlastic
+
+- type: entity
+  name: plastic herringbone tile
+  parent: FloorTileItemSteelPlastic
+  id: FloorTileItemSteelHerringbonePlastic
+  components:
+  - type: Sprite
+    state: steel-herringbone-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelHerringbonePlastic
+  - type: Stack
+    stackType: FloorTileSteelHerringbonePlastic
+
+- type: entity
+  parent: FloorTileItemSteelPlastic
+  id: FloorTileItemSteelHorizontalSlatsBorderedPlastic
+  name: plastic horizontal bordered slat tile
+  components:
+  - type: Sprite
+    state: steel-horizontal-slats-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelHorizontalSlatsBorderedPlastic
+  - type: Stack
+    stackType: FloorTileSteelHorizontalSlatsBorderedPlastic
+
+- type: entity
+  parent: FloorTileItemSteelPlastic
+  id: FloorTileItemSteelVerticalSlatsBorderedPlastic
+  name: plastic vertical bordered slat tile
+  components:
+  - type: Sprite
+    state: steel-vertical-slats-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelVerticalSlatsBorderedPlastic
+  - type: Stack
+    stackType: FloorTileSteelVerticalSlatsBorderedPlastic
+
+- type: entity
+  parent: FloorTileItemSteelPlastic
+  id: FloorTileItemSteelHorizontalSlatsContinuousPlastic
+  name: plastic horizontal continuous slat tile
+  components:
+  - type: Sprite
+    state: steel-horizontal-slats-continuous-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelHorizontalSlatsContinuousPlastic
+  - type: Stack
+    stackType: FloorTileSteelHorizontalSlatsContinuousPlastic
+
+- type: entity
+  parent: FloorTileItemSteelPlastic
+  id: FloorTileItemSteelVerticalSlatsContinuousPlastic
+  name: plastic vertical continuous slat tile
+  components:
+  - type: Sprite
+    state: steel-vertical-slats-continuous-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelVerticalSlatsContinuousPlastic
+  - type: Stack
+    stackType: FloorTileSteelVerticalSlatsContinuousPlastic
+
+- type: entity
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelSquigglyPlastic
+  name: plastic horizontal squiggly tile
+  components:
+  - type: Sprite
+    state: steel-squiggly-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelSquigglyPlastic
+  - type: Stack
+    stackType: FloorTileSteelSquigglyPlastic
+
+- type: entity
+  parent: FloorTileItemSteel
+  id: FloorTileItemSteelSquigglyVerticalPlastic
+  name: plastic vertical squiggly tile
+  components:
+  - type: Sprite
+    state: steel-squiggly-vertical-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorSteelSquigglyVerticalPlastic
+  - type: Stack
+    stackType: FloorTileSteelSquigglyVerticalPlastic
+
+- type: entity
+  parent: FloorTileItemBase
+  id: FloorTileItemTechmaintSteelPlastic
+  name: plastic maint floor
+  components:
+  - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    state: steel-maint-plastic
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: steel
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorTechMaintSteelPlastic
+  - type: Stack
+    stackType: FloorTileSteelMaintPlastic
+
+#### DARK
+
+- type: entity
+  name: dark plastic tile
+  parent: FloorTileItemBase
+  id: FloorTileItemDarkPlastic
+  components:
+  - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    state: dark-plastic
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: dark-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkPlastic
+  - type: Stack
+    stackType: FloorTileDarkPlastic
+  #- type: Construction # Mari - Not yet implemented.
+  #  graph: TileDarkPlastic # Mari - Not yet implemented.
+  #  node: darktileplastic # Mari - Not yet implemented.
+
+- type: entity
+  name: dark plastic offset tile
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkOffsetPlastic
+  components:
+  - type: Sprite
+    state: dark-offset-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkOffsetPlastic
+  - type: Stack
+    stackType: FloorTileDarkOffsetPlastic
+
+- type: entity
+  name: dark plastic diagonal tile
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkDiagonalPlastic
+  components:
+  - type: Sprite
+    state: dark-diagonal-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkDiagonalPlastic
+  - type: Stack
+    stackType: FloorTileDarkDiagonalPlastic
+
+- type: entity
+  name: dark plastic diagonal mini tile
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkDiagonalMiniPlastic
+  components:
+  - type: Sprite
+    state: dark-diagonal-mini-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkDiagonalMiniPlastic
+  - type: Stack
+    stackType: FloorTileDarkDiagonalMiniPlastic
+
+- type: entity
+  name: dark plastic mono tile
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkMonoPlastic
+  components:
+  - type: Sprite
+    state: dark-mono-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkMonoPlastic
+  - type: Stack
+    stackType: FloorTileDarkMonoPlastic
+
+- type: entity
+  name: dark plastic mini tile
+  parent: FloorTileItemDark
+  id: FloorTileItemDarkMiniPlastic
+  components:
+  - type: Sprite
+    state: dark-mini-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkMiniPlastic
+  - type: Stack
+    stackType: FloorTileDarkMiniPlastic
+
+- type: entity
+  name: dark plastic pavement tile
+  parent: FloorTileItemDark
+  id: FloorTileItemDarkPavementPlastic
+  components:
+  - type: Sprite
+    state: dark-pavement-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkPavementPlastic
+  - type: Stack
+    stackType: FloorTileDarkPavementPlastic
+
+- type: entity
+  name: dark plastic vertical pavement tile
+  parent: FloorTileItemDark
+  id: FloorTileItemDarkPavementVerticalPlastic
+  components:
+  - type: Sprite
+    state: dark-pavement-vertical-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkPavementVerticalPlastic
+  - type: Stack
+    stackType: FloorTileDarkPavementVerticalPlastic
+
+- type: entity
+  name: dark plastic herringbone tile
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkHerringbonePlastic
+  components:
+  - type: Sprite
+    state: dark-herringbone-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkHerringbonePlastic
+  - type: Stack
+    stackType: FloorTileDarkHerringbonePlastic
+
+- type: entity
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkHorizontalSlatsBorderedPlastic
+  name: dark plastic horizontal bordered slat tile
+  components:
+  - type: Sprite
+    state: dark-horizontal-slats-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkHorizontalSlatsBorderedPlastic
+  - type: Stack
+    stackType: FloorTileDarkHorizontalSlatsBorderedPlastic
+
+- type: entity
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkVerticalSlatsBorderedPlastic
+  name: dark plastic vertical bordered slat tile
+  components:
+  - type: Sprite
+    state: dark-vertical-slats-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkVerticalSlatsBorderedPlastic
+  - type: Stack
+    stackType: FloorTileDarkVerticalSlatsBorderedPlastic
+
+- type: entity
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkHorizontalSlatsContinuousPlastic
+  name: dark plastic horizontal continuous slat tile
+  components:
+  - type: Sprite
+    state: dark-horizontal-slats-continuous-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkHorizontalSlatsContinuousPlastic
+  - type: Stack
+    stackType: FloorTileDarkHorizontalSlatsContinuousPlastic
+
+- type: entity
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkVerticalSlatsContinuousPlastic
+  name: dark plastic vertical continuous slat tile
+  components:
+  - type: Sprite
+    state: dark-vertical-slats-continuous-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkVerticalSlatsContinuousPlastic
+  - type: Stack
+    stackType: FloorTileDarkVerticalSlatsContinuousPlastic
+
+- type: entity
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkSquigglyPlastic
+  name: dark plastic horizontal squiggly tile
+  components:
+  - type: Sprite
+    state: dark-squiggly-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkSquigglyPlastic
+  - type: Stack
+    stackType: FloorTileDarkSquigglyPlastic
+
+- type: entity
+  parent: FloorTileItemDarkPlastic
+  id: FloorTileItemDarkSquigglyVerticalPlastic
+  name: dark plastic vertical squiggly tile
+  components:
+  - type: Sprite
+    state: dark-squiggly-vertical-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorDarkSquigglyVerticalPlastic
+  - type: Stack
+    stackType: FloorTileDarkSquigglyVerticalPlastic
+
+- type: entity
+  parent: FloorTileItemBase
+  id: FloorTileItemTechmaintDarkPlastic
+  name: dark plastic maint floor
+  components:
+  - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    state: dark-maint-plastic
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: dark
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorTechMaintDarkPlastic
+  - type: Stack
+    stackType: FloorTileDarkMaintPlastic
+
+#### WHITE
+
+- type: entity
+  name: white plastic tile
+  parent: FloorTileItemBase
+  id: FloorTileItemWhitePlastic
+  components:
+  - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    state: white-plastic
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: white-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhitePlastic
+  - type: Stack
+    stackType: FloorTileWhitePlastic
+  #- type: Construction # Mari - Not yet implemented.
+  #  graph: TileWhitePlastic # Mari - Not yet implemented.
+  #  node: whitetileplastic # Mari - Not yet implemented.
+
+- type: entity
+  name: white plastic offset tile
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteOffsetPlastic
+  components:
+  - type: Sprite
+    state: white-offset-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteOffsetPlastic
+  - type: Stack
+    stackType: FloorTileWhiteOffsetPlastic
+
+- type: entity
+  name: white plastic diagonal tile
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteDiagonalPlastic
+  components:
+  - type: Sprite
+    state: white-diagonal-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteDiagonalPlastic
+  - type: Stack
+    stackType: FloorTileWhiteDiagonalPlastic
+
+- type: entity
+  name: white plastic diagonal mini tile
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteDiagonalMiniPlastic
+  components:
+  - type: Sprite
+    state: white-diagonal-mini-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteDiagonalMiniPlastic
+  - type: Stack
+    stackType: FloorTileWhiteDiagonalMiniPlastic
+
+- type: entity
+  name: white plastic mono tile
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteMonoPlastic
+  components:
+  - type: Sprite
+    state: white-mono-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteMonoPlastic
+  - type: Stack
+    stackType: FloorTileWhiteMonoPlastic
+
+- type: entity
+  name: white plastic mini tile
+  parent: FloorTileItemWhite
+  id: FloorTileItemWhiteMiniPlastic
+  components:
+  - type: Sprite
+    state: white-mini-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhiteMiniPlastic
+  - type: Stack
+    stackType: FloorTileWhiteMiniPlastic
+
+- type: entity
+  name: white plastic pavement tile
+  parent: FloorTileItemWhite
+  id: FloorTileItemWhitePavementPlastic
+  components:
+  - type: Sprite
+    state: white-pavement-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhitePavementPlastic
+  - type: Stack
+    stackType: FloorTileWhitePavementPlastic
+
+- type: entity
+  name: white plastic vertical pavement tile
+  parent: FloorTileItemWhite
+  id: FloorTileItemWhitePavementVerticalPlastic
+  components:
+  - type: Sprite
+    state: white-pavement-vertical-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhitePavementVerticalPlastic
+  - type: Stack
+    stackType: FloorTileWhitePavementVerticalPlastic
+
+- type: entity
+  name: white plastic herringbone tile
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteHerringbonePlastic
+  components:
+  - type: Sprite
+    state: white-herringbone-plastic
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhiteHerringbonePlastic
+  - type: Stack
+    stackType: FloorTileWhiteHerringbonePlastic
+
+- type: entity
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteVerticalSlatsBorderedPlastic
+  name: white plastic vertical bordered slat tile
+  components:
+  - type: Sprite
+    state: white-vertical-slats-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteVerticalSlatsBorderedPlastic
+  - type: Stack
+    stackType: FloorTileWhiteVerticalSlatsBorderedPlastic
+
+- type: entity
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteHorizontalSlatsBorderedPlastic
+  name: white plastic horizontal bordered slat tile
+  components:
+  - type: Sprite
+    state: white-horizontal-slats-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteHorizontalSlatsBorderedPlastic
+  - type: Stack
+    stackType: FloorTileWhiteHorizontalSlatsBorderedPlastic
+
+- type: entity
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteHorizontalSlatsContinuousPlastic
+  name: white plastic horizontal continuous slat tile
+  components:
+  - type: Sprite
+    state: white-horizontal-slats-continuous-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteHorizontalSlatsContinuousPlastic
+  - type: Stack
+    stackType: FloorTileWhiteHorizontalSlatsContinuousPlastic
+
+- type: entity
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteVerticalSlatsContinuousPlastic
+  name: white plastic vertical continuous slat tile
+  components:
+  - type: Sprite
+    state: white-vertical-slats-continuous-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteVerticalSlatsContinuousPlastic
+  - type: Stack
+    stackType: FloorTileWhiteVerticalSlatsContinuousPlastic
+
+- type: entity
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteSquigglyPlastic
+  name: white plastic horizontal squiggly tile
+  components:
+  - type: Sprite
+    state: white-squiggly-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteSquigglyPlastic
+  - type: Stack
+    stackType: FloorTileWhiteSquigglyPlastic
+
+- type: entity
+  parent: FloorTileItemWhitePlastic
+  id: FloorTileItemWhiteSquigglyVerticalPlastic
+  name: white plastic vertical squiggly tile
+  components:
+  - type: Sprite
+    state: white-squiggly-vertical-plastic
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorWhiteSquigglyVerticalPlastic
+  - type: Stack
+    stackType: FloorTileWhiteSquigglyVerticalPlastic
+
+- type: entity
+  parent: FloorTileItemBase
+  id: FloorTileItemTechmaintWhitePlastic
+  name: white plastic maint floor
+  components:
+  - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    state: white-maint-plastic
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: white
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorTechMaintWhitePlastic
+  - type: Stack
+    stackType: FloorTileWhiteMaintPlastic

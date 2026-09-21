@@ -1,0 +1,115 @@
+#### STEEL
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteHorizontalSlatsContinuous
+  name: stack-white-steel-horizontal-slats-tile-continuous
+  spawn: FloorTileItemWhiteHorizontalSlatsContinuous
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteVerticalSlatsContinuous
+  name: stack-white-steel-vertical-slats-tile-continuous
+  spawn: FloorTileItemWhiteVerticalSlatsContinuous
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteSquiggly
+  name: stack-white-steel-squiggly-tile
+  spawn: FloorTileItemWhiteSquiggly
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteSquigglyVertical
+  name: stack-white-steel-squiggly-tile-vertical
+  spawn: FloorTileItemWhiteSquigglyVertical
+
+#### PLASTIC
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhitePlastic
+  name: stack-white-steel-tile-plastic
+  spawn: FloorTileItemWhitePlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteOffsetPlastic
+  name: stack-offset-white-steel-tile-plastic
+  spawn: FloorTileItemWhiteOffsetPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteDiagonalPlastic
+  name: stack-white-steel-diagonal-tile-plastic
+  spawn: FloorTileItemWhiteDiagonalPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteDiagonalMiniPlastic
+  name: stack-white-steel-diagonal-mini-tile-plastic
+  spawn: FloorTileItemWhiteDiagonalMiniPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteMonoPlastic
+  name: stack-white-steel-mono-tile-plastic
+  spawn: FloorTileItemWhiteMonoPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteMiniPlastic
+  name: stack-white-steel-mini-tile-plastic
+  spawn: FloorTileItemWhiteMiniPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhitePavementPlastic
+  name: stack-white-steel-pavement-plastic
+  spawn: FloorTileItemWhitePavementPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhitePavementVerticalPlastic
+  name: stack-white-steel-pavement-vertical-plastic
+  spawn: FloorTileItemWhitePavementVerticalPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteHorizontalSlatsBorderedPlastic
+  name: stack-white-steel-horizontal-slats-tile-bordered-plastic
+  spawn: FloorTileItemWhiteHorizontalSlatsBorderedPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteVerticalSlatsBorderedPlastic
+  name: stack-white-steel-vertical-slats-tile-bordered-plastic
+  spawn: FloorTileItemWhiteVerticalSlatsBorderedPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteHorizontalSlatsContinuousPlastic
+  name: stack-white-steel-horizontal-slats-tile-continuous-plastic
+  spawn: FloorTileItemWhiteHorizontalSlatsContinuousPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteVerticalSlatsContinuousPlastic
+  name: stack-white-steel-vertical-slats-tile-continuous-plastic
+  spawn: FloorTileItemWhiteVerticalSlatsContinuousPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteHerringbonePlastic
+  name: stack-white-steel-herringbone-plastic
+  spawn: FloorTileItemWhiteHerringbonePlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteSquigglyPlastic
+  name: stack-white-steel-squiggly-tile-plastic
+  spawn: FloorTileItemWhiteSquigglyPlastic
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileWhiteSquigglyVerticalPlastic
+  name: stack-white-steel-squiggly-tile-vertical-plastic
+  spawn: FloorTileItemWhiteSquigglyVerticalPlastic
