@@ -116,7 +116,7 @@
   id: FloorBar
   parent: BaseStationTile
   name: tiles-bar-floor
-  sprite: /Textures/_Funkystation/Tiles/bar.png # Funky
+  sprite: /Textures/_Maristation/Tiles/Checker/checker-bar.png # Mari
   variants: 4
   itemDrop: FloorTileItemBar
 
@@ -124,21 +124,21 @@
   id: FloorClown
   parent: BaseStationTile
   name: tiles-clown-floor
-  sprite: /Textures/_Funkystation/Tiles/clown.png # Funky
+  sprite: /Textures/_Maristation/Tiles/Checker/checker-clown.png # Mari
   itemDrop: FloorTileItemClown
 
 - type: tile
   id: FloorMime
   parent: BaseStationTile
   name: tiles-mime-floor
-  sprite: /Textures/_Funkystation/Tiles/mime.png # Funky
+  sprite: /Textures/_Maristation/Tiles/Checker/checker-mime.png # Mari
   itemDrop: FloorTileItemMime
 
 - type: tile
   id: FloorKitchen
   parent: BaseStationTile
   name: tiles-kitchen-floor
-  sprite: /Textures/_Funkystation/Tiles/kitchen.png # Funky
+  sprite: /Textures/_Maristation/Tiles/Checker/checker-kitchen.png # Mari
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemKitchen
@@ -147,7 +147,7 @@
   id: FloorLaundry
   parent: BaseStationTile
   name: tiles-laundry-floor
-  sprite: /Textures/_Funkystation/Tiles/laundry.png # Funky
+  sprite: /Textures/_Maristation/Tiles/Checker/checker-laundry.png # Mari
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemLaundry
