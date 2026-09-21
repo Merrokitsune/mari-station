@@ -16,7 +16,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhiteMaint
-  name: stack-white-maint-floor
+  name: stack-white-steel-maint-floor
   spawn: FloorTileItemTechmaintWhite
 
 ## PLASTIC
@@ -29,11 +29,11 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkMaintPlastic
-  name: stack-dark-maint-floor-plastic
+  name: stack-dark-steel-maint-floor-plastic
   spawn: FloorTileItemTechmaintDarkPlastic
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileWhiteMaintPlastic
-  name: stack-white-maint-floor-plastic
+  name: stack-white-steel-maint-floor-plastic
   spawn: FloorTileItemTechmaintWhitePlastic
