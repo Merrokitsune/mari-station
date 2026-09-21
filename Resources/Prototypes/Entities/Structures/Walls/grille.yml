@@ -23,7 +23,7 @@
     - Anchorable
   - type: Sprite
     drawdepth: Walls
-    sprite: Structures/Walls/grille.rsi
+    sprite: _Maristation/Structures/Walls/grille.rsi # Mari
     layers:
     - state: electrified
       sprite: Effects/electricity.rsi
@@ -31,7 +31,7 @@
       shader: unshaded
       visible: false
   - type: Icon
-    sprite: Structures/Walls/grille.rsi
+    sprite: _Maristation/Structures/Walls/grille.rsi # Mari
     state: full
   - type: PlacementReplacement
     key: grilles
@@ -105,7 +105,7 @@
   name: diagonal grille
   components:
   - type: Sprite
-    sprite: Structures/Walls/grille-diagonal.rsi
+    sprite: _Maristation/Structures/Walls/grille-diagonal.rsi # Mari
     layers:
     - state: state0
     - state: electrified_diagonal
@@ -114,7 +114,7 @@
       shader: unshaded
       visible: false
   - type: Icon
-    sprite: Structures/Walls/grille-diagonal.rsi
+    sprite: _Maristation/Structures/Walls/grille-diagonal.rsi # Mari
     state: state0
   - type: IconSmooth
     index: 0
@@ -147,10 +147,10 @@
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: Structures/Walls/grille.rsi
+    sprite: _Maristation/Structures/Walls/grille.rsi # Mari
     state: broken
   - type: Icon
-    sprite: Structures/Walls/grille.rsi
+    sprite: _Maristation/Structures/Walls/grille.rsi # Mari
     state: broken
   - type: RCDDeconstructable
     cost: 6
