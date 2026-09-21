@@ -16,7 +16,7 @@ stack-white-horizontal-slats-tile-continuous = white steel continuous horizontal
 stack-white-vertical-slats-tile-continuous = white steel continuous vertical slat tile
 stack-white-squiggly = white steel horizontal squiggly tile
 stack-white-squiggly-vertical = white steel horizontal squiggly tile
-stack-white-maint-floor-white = white steel maint floor
+stack-white-maint-floor = white steel maint floor
 
 ### PLASTIC
 ## GRAY
