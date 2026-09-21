@@ -386,9 +386,9 @@
   name: reinforced wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Maristation/Structures/Walls/solid.rsi # Mari
   - type: Icon
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Maristation/Structures/Walls/solid.rsi # Mari
     state: rgeneric
   - type: Construction
     graph: Girder
@@ -443,9 +443,9 @@
   suffix: rusted
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid-rust.rsi
+    sprite: _Maristation/Structures/Walls/solid-rust.rsi # Mari
   - type: Icon
-    sprite: Structures/Walls/solid-rust.rsi
+    sprite: _Maristation/Structures/Walls/solid-rust.rsi # Mari
     state: rgeneric
   - type: Construction
     graph: Girder
@@ -462,10 +462,10 @@
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: Structures/Walls/reinforced-diagonal.rsi
+    sprite: _Maristation/Structures/Walls/reinforced-diagonal.rsi # Mari
     state: state0
   - type: Icon
-    sprite: Structures/Walls/reinforced-diagonal.rsi
+    sprite: _Maristation/Structures/Walls/reinforced-diagonal.rsi # Mari
     state: state0
   - type: Damageable
     damageModifierSet: PlasteelMod
@@ -674,13 +674,13 @@
   name: solid wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Maristation/Structures/Walls/solid.rsi # Mari
   - type: WallReplacementMarker
   - type: Construction
     graph: Girder
     node: wall
   - type: Icon
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Maristation/Structures/Walls/solid.rsi # Mari
   - type: RCDDeconstructable
     cost: 60 # Funkystation
     delay: 8
@@ -709,10 +709,10 @@
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: Structures/Walls/solid-diagonal.rsi
+    sprite: _Maristation/Structures/Walls/solid-diagonal.rsi # Mari
     state: state0
   - type: Icon
-    sprite: Structures/Walls/solid-diagonal.rsi
+    sprite: _Maristation/Structures/Walls/solid-diagonal.rsi # Mari
     state: state0
   - type: Destructible
     thresholds:
@@ -728,9 +728,9 @@
   suffix: rusted
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid-rust.rsi
+    sprite: _Maristation/Structures/Walls/solid-rust.rsi # Mari
   - type: Icon
-    sprite: Structures/Walls/solid-rust.rsi
+    sprite: _Maristation/Structures/Walls/solid-rust.rsi # Mari
     state: full
   - type: Construction
     graph: Girder
