@@ -834,4 +834,15 @@
   id: 96
   time: '2026-09-19T04:48:36Z'
   url: https://github.com/Merrokitsune/mari-station/pull/7
+- author: Merrokitsune
+  changes:
+  - message: Changed floor sprites.
+    type: Tweak
+  - message: Added extra tiles.
+    type: Add
+  - message: Added more plastic tiles.
+    type: Add
+  id: 97
+  time: '2026-09-21T05:23:25Z'
+  url: https://github.com/Merrokitsune/mari-station/pull/9
 Order: -1
