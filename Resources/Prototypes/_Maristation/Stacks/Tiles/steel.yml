@@ -69,7 +69,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelPavementVerticalPlastic
-  name: stack-steel-vertical-pavement-plastic
+  name: stack-steel-pavement-vertical-plastic
   spawn: FloorTileItemSteelPavementVerticalPlastic
 
 - type: stack
@@ -87,7 +87,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelHorizontalSlatsBorderedPlastic
-  name: stack-steel-horizontal-slats-tile-borderedPlastic
+  name: stack-steel-horizontal-slats-tile-bordered-plastic
   spawn: FloorTileItemSteelHorizontalSlatsBorderedPlastic
 
 - type: stack

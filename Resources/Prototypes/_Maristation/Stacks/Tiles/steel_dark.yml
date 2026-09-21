@@ -39,13 +39,13 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkDiagonalPlastic
-  name: stack-dark-steel-diagonal-plastic
+  name: stack-dark-steel-diagonal-tile-plastic
   spawn: FloorTileItemDarkDiagonalPlastic
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkDiagonalMiniPlastic
-  name: stack-dark-steel-diagonal-mini-plastic
+  name: stack-dark-steel-diagonal-mini-tile-plastic
   spawn: FloorTileItemDarkDiagonalMiniPlastic
 
 - type: stack
@@ -69,7 +69,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkPavementVerticalPlastic
-  name: stack-dark-steel-vertical-pavement-plastic
+  name: stack-dark-steel-pavement-vertical-plastic
   spawn: FloorTileItemDarkPavementVerticalPlastic
 
 - type: stack
