@@ -14,13 +14,13 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkSquiggly
-  name: stack-dark-squiggly
+  name: stack-dark-steel-squiggly-tile
   spawn: FloorTileItemDarkSquiggly
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkSquigglyVertical
-  name: stack-dark-squiggly-vertical
+  name: stack-dark-steel-squiggly-tile-vertical
   spawn: FloorTileItemDarkSquigglyVertical
 
 #### PLASTIC
@@ -105,11 +105,11 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkSquigglyPlastic
-  name: stack-dark-squiggly-plastic
+  name: stack-dark-steel-squiggly-tile-plastic
   spawn: FloorTileItemDarkSquigglyPlastic
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileDarkSquigglyVerticalPlastic
-  name: stack-dark-squiggly-vertical-plastic
+  name: stack-dark-steel-squiggly-tile-vertical-plastic
   spawn: FloorTileItemDarkSquigglyVerticalPlastic
