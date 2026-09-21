@@ -165,7 +165,7 @@
   name: tiles-steel-floor-mono-plastic
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-mono-plastic.png
   variants: 4
-  itemDrop: FloorTileItemSteelMonoPlastic.
+  itemDrop: FloorTileItemSteelMonoPlastic
 
 - type: tile
   id: FloorSteelMiniPlastic
