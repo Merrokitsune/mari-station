@@ -33,19 +33,19 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelOffsetPlastic
-  name: stack-steel-tile-offset-plastic
+  name: stack-offset-steel-tile-plastic
   spawn: FloorTileItemSteelOffsetPlastic
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelDiagonalPlastic
-  name: stack-steel-tile-diagonal-plastic
+  name: stack-steel-diagonal-tile-plastic
   spawn: FloorTileItemSteelDiagonalPlastic
 
 - type: stack
   parent: BaseTileStack
   id: FloorTileSteelDiagonalMiniPlastic
-  name: stack-steel-tile-diagonal-mini-plastic
+  name: stack-steel-diagonal-mini-tile-plastic
   spawn: FloorTileItemSteelDiagonalMiniPlastic
 
 - type: stack
