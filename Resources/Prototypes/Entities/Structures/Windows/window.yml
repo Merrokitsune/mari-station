@@ -48,10 +48,10 @@
     fx: EffectRCDDeconstruct4
   - type: Airtight
   - type: IconSmooth
-    key: walls
+    key: windows # Mari
     base: window
-  - type: PlacementReplacement
-    key: walls
+  #- type: PlacementReplacement # Mari
+  #  key: windows # Mari
   - type: InteractionPopup
     interactSuccessString: comp-window-knock
     messagePerceivedByOthers: comp-window-knock
@@ -323,7 +323,7 @@
     - Window
   - type: IconSmooth
     mode: Diagonal
-    key: walls
+    key: windows # Mari
     base: state
   - type: Icon
     sprite: _Maristation/Structures/Windows/window-base-diagonal.rsi # Mari
