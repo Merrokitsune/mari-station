@@ -125,6 +125,7 @@
   parent: BaseStationTile
   name: tiles-clown-floor
   sprite: /Textures/_Maristation/Tiles/Checker/checker-clown.png # Mari
+  variants: 4 # Mari
   itemDrop: FloorTileItemClown
 
 - type: tile
@@ -132,6 +133,7 @@
   parent: BaseStationTile
   name: tiles-mime-floor
   sprite: /Textures/_Maristation/Tiles/Checker/checker-mime.png # Mari
+  variants: 4 # Mari
   itemDrop: FloorTileItemMime
 
 - type: tile
@@ -139,6 +141,7 @@
   parent: BaseStationTile
   name: tiles-kitchen-floor
   sprite: /Textures/_Maristation/Tiles/Checker/checker-kitchen.png # Mari
+  variants: 4 # Mari
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemKitchen
@@ -148,6 +151,7 @@
   parent: BaseStationTile
   name: tiles-laundry-floor
   sprite: /Textures/_Maristation/Tiles/Checker/checker-laundry.png # Mari
+  variants: 4 # Mari
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemLaundry
