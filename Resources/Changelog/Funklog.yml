@@ -835,12 +835,16 @@
   id: 96
   time: '2026-09-19T04:48:36Z'
   url: https://github.com/Merrokitsune/mari-station/pull/7
-# Maristation End.
-- author: AraiMaia
+- author: Merrokitsune
   changes:
-  - message: You can now place pipes far away from you in the entity spawner. Rejoice.
-    type: Fix
-  id: 96
-  time: '2026-09-19T19:37:10Z'
-  url: https://github.com/funky-station/forky-station/pull/522
+  - message: Changed floor sprites.
+    type: Tweak
+  - message: Added extra tiles.
+    type: Add
+  - message: Added more plastic tiles.
+    type: Add
+  id: 97
+  time: '2026-09-21T05:23:25Z'
+  url: https://github.com/Merrokitsune/mari-station/pull/9
+# Maristation End.
 Order: -1

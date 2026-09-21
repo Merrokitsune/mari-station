@@ -13,13 +13,13 @@
   id: Plating
   parent: BasePlating
   name: tiles-plating
-  sprite: /Textures/_Funkystation/Tiles/plating.png # Funky
+  sprite: /Textures/_Maristation/Tiles/plating.png # Mari
 
 - type: tile
   id: PlatingDamaged
   parent: BasePlating
   name: tiles-plating
-  sprite: /Textures/_Funkystation/Tiles/plating-damaged.png
+  sprite: /Textures/_Maristation/Tiles/plating-damaged.png # Mari
   variants: 4
 
 - type: tile
@@ -42,7 +42,7 @@
   id: FloorHullReinforced
   parent: BasePlating
   name: tiles-hull-reinforced
-  sprite: /Textures/_Funkystation/Tiles/plating-debug-indestructible.png
+  sprite: /Textures/_Maristation/Tiles/plating-debug-indestructible.png # Mari
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemSteel

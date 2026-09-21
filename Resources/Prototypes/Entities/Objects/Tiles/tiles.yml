@@ -45,6 +45,7 @@
   id: FloorTileItemSteelCheckerDark
   components:
   - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     state: checker-dark
   - type: FloorTile
     outputs:
@@ -59,6 +60,7 @@
   id: FloorTileItemSteelCheckerLight
   components:
   - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     state: checker-light
   - type: FloorTile
     outputs:
@@ -68,13 +70,15 @@
     stackType: FloorTileSteelCheckerLight
 
 - type: entity
-  name: dark tile
+  name: dark steel tile # Mari - Rename for easy access.
   parent: FloorTileItemBase
   id: FloorTileItemDark
   components:
   - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     state: dark
   - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     heldPrefix: dark
   - type: FloorTile
     outputs:
@@ -87,7 +91,7 @@
     node: darktile
 
 - type: entity
-  name: dark steel herringbone
+  name: dark steel herringbone tile # Mari - Rename for easy access.
   parent: FloorTileItemDark
   id: FloorTileItemDarkHerringbone
   components:
@@ -129,7 +133,7 @@
     stackType: FloorTileDarkMono
 
 - type: entity
-  name: dark steel pavement
+  name: dark steel pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemDark
   id: FloorTileItemDarkPavement
   components:
@@ -143,7 +147,7 @@
     stackType: FloorTileDarkPavement
 
 - type: entity
-  name: dark steel vertical pavement
+  name: dark steel vertical pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemDark
   id: FloorTileItemDarkPavementVertical
   components:
@@ -190,8 +194,10 @@
   id: FloorTileItemSteel
   components:
   - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     state: steel
   - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     heldPrefix: steel
   - type: FloorTile
     outputs:
@@ -246,7 +252,7 @@
     stackType: FloorTileSteelHorizontalSlatsBordered
 
 - type: entity
-  name: steel herringbone
+  name: steel herringbone tile # Mari - Rename for easy access.
   parent: FloorTileItemSteel
   id: FloorTileItemSteelHerringbone
   components:
@@ -274,7 +280,7 @@
     stackType: FloorTileSteelMini
 
 - type: entity
-  name: steel pavement
+  name: steel pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemSteel
   id: FloorTileItemSteelPavement
   components:
@@ -288,7 +294,7 @@
     stackType: FloorTileSteelPavement
 
 - type: entity
-  name: steel vertical pavement
+  name: steel vertical pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemSteel
   id: FloorTileItemSteelPavementVertical
   components:
@@ -302,13 +308,15 @@
     stackType: FloorTileSteelPavementVertical
 
 - type: entity
-  name: white tile
+  name: white steel tile # Mari - Rename for easy access.
   parent: FloorTileItemBase
   id: FloorTileItemWhite
   components:
   - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     state: white
   - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     heldPrefix: white
   - type: FloorTile
     outputs:
@@ -321,7 +329,7 @@
     node: whitetile
 
 - type: entity
-  name: white steel herringbone
+  name: white steel herringbone tile # Mari - Rename for easy access.
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteHerringbone
   components:
@@ -363,7 +371,7 @@
     stackType: FloorTileWhiteMono
 
 - type: entity
-  name: white steel pavement
+  name: white steel pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemWhite
   id: FloorTileItemWhitePavement
   components:
@@ -377,7 +385,7 @@
     stackType: FloorTileWhitePavement
 
 - type: entity
-  name: white steel vertical pavement
+  name: white steel vertical pavement tile # Mari - Rename for easy access.
   parent: FloorTileItemWhite
   id: FloorTileItemWhitePavementVertical
   components:
@@ -459,11 +467,13 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemTechmaintDark
-  name: dark techmaint floor
+  name: dark maint floor # Mari - Rename for easy access.
   components:
   - type: Sprite
-    state: techfloordark
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
+    state: dark-maint # Mari - Resprite.
   - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     heldPrefix: dark
   - type: FloorTile
     outputs:
@@ -545,8 +555,10 @@
   id: FloorTileItemBar
   components:
   - type: Sprite
-    state: bar
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
+    state: checker-bar # Mari - Resprite.
   - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     heldPrefix: steel
   - type: FloorTile
     outputs:
@@ -561,8 +573,10 @@
   id: FloorTileItemClown
   components:
   - type: Sprite
-    state: clown
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
+    state: checker-clown # Mari - Resprite.
   - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     heldPrefix: steel
   - type: FloorTile
     outputs:
@@ -577,8 +591,10 @@
   id: FloorTileItemMime
   components:
   - type: Sprite
-    state: mime
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
+    state: checker-mime # Mari - Resprite.
   - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     heldPrefix: steel
   - type: FloorTile
     outputs:
@@ -593,8 +609,10 @@
   id: FloorTileItemKitchen
   components:
   - type: Sprite
-    state: kitchen
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
+    state: checker-kitchen # Mari - Resprite.
   - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     heldPrefix: dark
   - type: FloorTile
     outputs:
@@ -609,9 +627,11 @@
   id: FloorTileItemLaundry
   components:
   - type: Sprite
-    state: laundry
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
+    state: checker-laundry # Mari - Resprite.
   - type: Item
-    heldPrefix: steel
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
+    heldPrefix: white # Mari - Resprite
   - type: FloorTile
     outputs:
       - Plating
@@ -839,8 +859,10 @@
   id: FloorTileItemSteelMaint
   components:
   - type: Sprite
-    state: steelmaintfloor
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
+    state: steel-maint # Mari - Resprite.
   - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari - Resprite.
     heldPrefix: steel
   - type: FloorTile
     outputs:
