@@ -45,8 +45,8 @@
         layer:
         - WallLayer
         density: 4000
-  #- type: PlacementReplacement # Mari
-  #  key: walls # Mari
+  - type: PlacementReplacement
+    key: walls
   - type: StructureAlignerPylon
     pylons:
     - Door

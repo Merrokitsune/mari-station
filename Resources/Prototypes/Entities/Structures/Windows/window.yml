@@ -50,8 +50,8 @@
   - type: IconSmooth
     key: windows # Mari
     base: window
-  #- type: PlacementReplacement # Mari
-  #  key: windows # Mari
+  - type: PlacementReplacement
+    key: walls
   - type: InteractionPopup
     interactSuccessString: comp-window-knock
     messagePerceivedByOthers: comp-window-knock
