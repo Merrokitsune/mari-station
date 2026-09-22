@@ -61,7 +61,7 @@
     damageDivisor: 1.5
     trackAllDamage: true
     damageOverlay:
-      sprite: _Maristation/Structures/Windows/cracks_directional.rsi # Mari
+      sprite: _Maristation/Structures/Windows/cracks-directional.rsi # Mari
   - type: Damageable
     damageModifierSet: GlassMod
   - type: Destructible
@@ -112,7 +112,7 @@
     thresholds: [5, 10, 20]
     trackAllDamage: true
     damageOverlay:
-      sprite: _Maristation/Structures/Windows/cracks_directional_corner.rsi # Mari
+      sprite: _Maristation/Structures/Windows/cracks-directional_corner.rsi # Mari
 
 - type: entity
   parent: UraniumWindow
