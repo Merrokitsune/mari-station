@@ -59,8 +59,8 @@
     layoutId: SurveillanceCamera
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/camera.rsi
-    offset: 0, -0.5
+    sprite: _Maristation/Structures/Wallmounts/camera.rsi # Mari
+    #offset: 0, -0.5 # Mari - Such an offset might cause inconsistency and weird effects.
     layers:
       - map: [ "enum.SurveillanceCameraVisualsKey.Layer" ]
         state: camera
@@ -245,6 +245,6 @@
       thresholds: *ThresholdsSurveilCamera
     - type: Sprite
       drawdepth: WallMountedItems
-      sprite: Structures/Wallmounts/camera.rsi
+      sprite: _Maristation/Structures/Wallmounts/camera.rsi # Mari
       layers:
         - state: camera_off
