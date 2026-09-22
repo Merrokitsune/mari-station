@@ -6,8 +6,8 @@
   suffix: Wall broken
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/station-map.rsi
-    offset: 0, -0.25
+    sprite: _Maristation/Structures/Wallmounts/station-map.rsi # Mari
+    #offset: 0, -0.25 # Mari - Such an offset might cause inconsistency and weird effects.
     drawdepth: WallMountedItems
     layers:
     - state: broken
@@ -41,8 +41,8 @@
   - type: Appearance
   - type: StationMap
   - type: Sprite
-    sprite: Structures/Wallmounts/station-map.rsi
-    offset: 0, -0.25
+    sprite: _Maristation/Structures/Wallmounts/station-map.rsi # Mari
+    #offset: 0, -0.25 # Mari - Such an offset might cause inconsistency and weird effects.
     layers:
     - state: base
     - state: unshaded
@@ -114,8 +114,8 @@
   - type: WallMount
     arc: 360
   - type: Sprite
-    sprite: Structures/Wallmounts/station-map.rsi
-    offset: 0, -0.25
+    sprite: _Maristation/Structures/Wallmounts/station-map.rsi # Mari
+    #offset: 0, -0.25 # Mari - Such an offset might cause inconsistency and weird effects.
     layers:
     - state: frame0
       map: [ "enum.ConstructionVisuals.Layer" ]
