@@ -118,7 +118,7 @@
     thresholds: [5, 10, 20]
     trackAllDamage: true
     damageOverlay:
-      sprite: _Maristation/Structures/Windows/cracks-directional_corner.rsi # Mari
+      sprite: _Maristation/Structures/Windows/cracks-directional-corner.rsi # Mari
 
 - type: entity
   parent: ReinforcedUraniumWindow
