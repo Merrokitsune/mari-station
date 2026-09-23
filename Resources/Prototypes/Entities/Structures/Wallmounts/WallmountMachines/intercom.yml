@@ -48,8 +48,8 @@
   - type: Sprite
     noRot: false
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/intercom.rsi
-    offset: 0, -0.25
+    sprite: _Maristation/Structures/Wallmounts/intercom.rsi # Mari
+    #offset: 0, -0.25 # Mari - Such an offset might cause inconsistency and weird effects.
     layers:
     - state: base
     - state: unshaded
@@ -127,8 +127,8 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/intercom.rsi
-    offset: 0, -0.25
+    sprite: _Maristation/Structures/Wallmounts/intercom.rsi # Mari
+    # offset: 0, -0.25 # Mari - Such an offset might cause inconsistency and weird effects.
     layers:
     - state: build
     - state: panel

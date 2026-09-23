@@ -27,7 +27,7 @@
     node: bulbLight
   - type: Sprite
     offset: 0, 1
-    sprite: Structures/Wallmounts/Lighting/strobe_light.rsi
+    sprite: _Maristation/Structures/Wallmounts/Lighting/strobe_light.rsi # Mari
     drawdepth: WallMountedItems
     layers:
     - map: ["enum.PoweredLightLayers.Base"]
@@ -77,7 +77,7 @@
   parent: AlwaysPoweredStrobeLight
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/strobe_light.rsi
+    sprite: _Maristation/Structures/Wallmounts/Lighting/strobe_light.rsi # Mari
     state: empty
   - type: AmbientSound
     enabled: false
