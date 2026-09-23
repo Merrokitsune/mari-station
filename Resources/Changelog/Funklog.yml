@@ -896,4 +896,11 @@
   id: 102
   time: '2026-09-22T17:18:42Z'
   url: https://github.com/Merrokitsune/mari-station/pull/13
+- author: Merrokitsune
+  changes:
+  - message: Fixed errors in locale.
+    type: Tweak
+  id: 103
+  time: '2026-09-22T19:06:51Z'
+  url: https://github.com/Merrokitsune/mari-station/pull/14
 Order: -1
