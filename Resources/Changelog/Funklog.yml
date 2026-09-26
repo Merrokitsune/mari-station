@@ -5,6 +5,7 @@
     type: Add
   id: 1
   time: '2026-08-16T00:00:00.0000000+00:00'
+# Maristation Start.
 - author: Merrokitsune
   changes:
   - message: Replaced branding.
@@ -16,6 +17,7 @@
   id: 1
   time: '2026-09-19T04:48:36Z'
   url: https://github.com/Merrokitsune/mari-station/pull/7
+# Maristation End.
 - author: AraiMaia
   changes:
   - message: Hitting a turn in a disposal pipe now hurts you.
@@ -23,6 +25,7 @@
   id: 2
   time: '2026-08-17T06:08:22Z'
   url: https://github.com/funky-station/forky-station/pull/248
+# Maristation Start.
 - author: Merrokitsune
   changes:
   - message: Changed floor sprites.
@@ -34,6 +37,7 @@
   id: 2
   time: '2026-09-21T05:23:25Z'
   url: https://github.com/Merrokitsune/mari-station/pull/9
+# Maristation End.
 - author: ClocksAreWorthy
   changes:
   - message: Added a Lectern!
@@ -912,4 +916,37 @@
   time: '2026-09-22T19:06:51Z'
   url: https://github.com/Merrokitsune/mari-station/pull/14
 # Maristation End.
+- author: mkanke
+  changes:
+  - message: Added 5 prefilled cardboard boxes for mappers
+    type: Add
+  id: 103
+  time: '2026-09-23T07:35:58Z'
+  url: https://github.com/funky-station/forky-station/pull/335
+- author: mkanke
+  changes:
+  - message: Adds Cops and Robbers crate to cargo order console
+    type: Add
+  id: 104
+  time: '2026-09-23T08:01:25Z'
+  url: https://github.com/funky-station/forky-station/pull/276
+- author: Sere and Frogoo
+  changes:
+  - message: Add Gorilla Crunch, a new gorilla-themed cereal, to hacked ChefVend and
+      as uncommon maints loot.
+    type: Add
+  - message: Recipe for a Gorilla Crunch bowl.
+    type: Add
+  - message: Awesome Gorilla Crunch sprites by Frogoo.
+    type: Add
+  id: 105
+  time: '2026-09-24T04:46:04Z'
+  url: https://github.com/funky-station/forky-station/pull/177
+- author: TheHolyAegis
+  changes:
+  - message: Removed the ability to construct the AI core.
+    type: Remove
+  id: 106
+  time: '2026-09-25T13:25:45Z'
+  url: https://github.com/funky-station/forky-station/pull/494
 Order: -1
