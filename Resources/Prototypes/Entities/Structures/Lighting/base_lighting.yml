@@ -78,7 +78,7 @@
     graph: LightFixture
     node: tubeLight
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/light-tube.rsi
+    sprite: _Maristation/Structures/Wallmounts/Lighting/light-tube.rsi # Mari
     layers:
     - map: ["enum.PoweredLightLayers.Base"]
       state: base
@@ -103,7 +103,7 @@
   description: "A light fixture. Draws power and produces light when equipped with a light tube."
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/light-tube.rsi
+    sprite: _Maristation/Structures/Wallmounts/Lighting/light-tube.rsi # Mari
     offset: 0, 1
     state: empty
   - type: PointLight
@@ -259,7 +259,7 @@
       sound:
         path: /Audio/Ambience/Objects/light_hum.ogg
     - type: Sprite
-      sprite: Structures/Wallmounts/Lighting/light-small.rsi
+      sprite: _Maristation/Structures/Wallmounts/Lighting/light-small.rsi # Mari
       state: base
     - type: PointLight
       color: "#FFD1A3"
@@ -299,7 +299,7 @@
   description: "A light fixture. Draws power and produces light when equipped with a light bulb."
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/light-small.rsi
+    sprite: _Maristation/Structures/Wallmounts/Lighting/light-small.rsi # Mari
     state: empty
   - type: AmbientSound
     enabled: false
@@ -435,7 +435,7 @@
   - type: RotatingLight
     speed: 40
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/emergency-light.rsi
+    sprite: _Maristation/Structures/Wallmounts/Lighting/emergency-light.rsi # Mari
     offset: 0, 1
     layers:
     - state: base

@@ -77,8 +77,8 @@
   - type: Appearance
   - type: WiresVisuals
   - type: Sprite
-    sprite: Structures/Wallmounts/air-alarm.rsi
-    offset: 0, -0.25
+    sprite: _Maristation/Structures/Wallmounts/air-alarm.rsi # Mari
+    #offset: 0, -0.25 # Mari - Such an offset might cause inconsistency and weird effects.
     layers:
     - state: base
     - state: alarm0
@@ -112,7 +112,7 @@
   description: An air alarm. Doesn't look like it'll be alarming air any time soon.
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/air-alarm.rsi
+    sprite: _Maristation/Structures/Wallmounts/air-alarm.rsi # Mari
     layers:
     - state: panel
       map: [ "enum.ConstructionVisuals.Layer" ]

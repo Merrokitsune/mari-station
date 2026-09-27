@@ -24,9 +24,9 @@
     - ForceFixRotations
     - Window
   - type: Sprite
-    sprite: Structures/Windows/window-base.rsi
+    sprite: _Maristation/Structures/Windows/window-base.rsi # Mari
   - type: Icon
-    sprite: Structures/Windows/window-base.rsi
+    sprite: _Maristation/Structures/Windows/window-base.rsi # Mari
     state: full
   - type: Physics
     bodyType: Static
@@ -48,7 +48,7 @@
     fx: EffectRCDDeconstruct4
   - type: Airtight
   - type: IconSmooth
-    key: walls
+    key: windows # Mari
     base: window
   - type: PlacementReplacement
     key: walls
@@ -66,7 +66,7 @@
     damageDivisor: 2
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks.rsi
+      sprite: _Maristation/Structures/Windows/cracks.rsi # Mari
   - type: StaticPrice
     price: 100
   - type: BlockWeather
@@ -78,11 +78,12 @@
 - type: entity
   parent: [ BaseWindowStructure, StructureHealthBarrier ]
   id: Window
+  name: glass window # Mari - Rename for ease of access.
   components:
   - type: Sprite
-    sprite: Structures/Windows/window-base.rsi
+    sprite: _Maristation/Structures/Windows/window-base.rsi # Mari
   - type: Icon
-    sprite: Structures/Windows/window-base.rsi
+    sprite: _Maristation/Structures/Windows/window-base.rsi # Mari
     state: full
   - type: Damageable
     damageModifierSet: GlassMod
@@ -104,12 +105,12 @@
 - type: entity
   parent: Window
   id: TintedWindow
-  name: tinted window
+  name: tinted glass window # Mari - Rename for ease of access.
   components:
   - type: Sprite
-    sprite: Structures/Windows/window-tinted.rsi
+    sprite: _Maristation/Structures/Windows/window-tinted.rsi # Mari
   - type: Icon
-    sprite: Structures/Windows/window-tinted.rsi
+    sprite: _Maristation/Structures/Windows/window-tinted.rsi # Mari
   - type: IconSmooth
     base: twindow
   - type: Construction
@@ -186,7 +187,7 @@
     thresholds: [5, 10, 20]
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks_directional.rsi
+      sprite: _Maristation/Structures/Windows/cracks-directional.rsi # Mari
   - type: StaticPrice
     price: 15
   - type: Construction
@@ -196,12 +197,13 @@
 - type: entity
   parent: [ BaseWindowStructureDirectional, StructureHealthBarrierWeak ]
   id: WindowDirectional
+  name: directional glass window # Mari - Rename for ease of access.
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: window
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: window
   - type: Damageable
     damageModifierSet: GlassMod
@@ -226,10 +228,10 @@
   suffix: Corner
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: window_corner
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: window_corner
   - type: Fixtures
     fixtures:
@@ -249,7 +251,7 @@
     thresholds: [5, 10, 20]
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks_directional_corner.rsi
+      sprite: _Maristation/Structures/Windows/cracks-directional-corner.rsi # Mari
 
 - type: entity
   abstract: true
@@ -259,7 +261,7 @@
 - type: entity
   id: WindowFrostedDirectional
   parent: WindowDirectional
-  name: directional frosted window
+  name: directional frosted glass window # Mari - Rename for ease of access.
   description: Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter
@@ -267,10 +269,10 @@
     - Window
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: frosted_window
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: frosted_window
   - type: StaticPrice
     price: 35
@@ -281,10 +283,10 @@
   suffix: Corner
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: frosted_window_corner
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: _Maristation/Structures/Windows/directional.rsi # Mari
     state: frosted_window_corner
   - type: Fixtures
     fixtures:
@@ -301,7 +303,7 @@
     thresholds: [5, 10, 20]
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks_directional_corner.rsi
+      sprite: _Maristation/Structures/Windows/cracks-directional-corner.rsi # Mari
 
 - type: entity
   parent: Window
@@ -313,7 +315,7 @@
     - Window
   components:
   - type: Sprite
-    sprite: Structures/Windows/window-base-diagonal.rsi
+    sprite: _Maristation/Structures/Windows/window-base-diagonal.rsi # Mari
     state: state0
   - type: Tag
     tags:
@@ -321,10 +323,10 @@
     - Window
   - type: IconSmooth
     mode: Diagonal
-    key: walls
+    key: windows # Mari
     base: state
   - type: Icon
-    sprite: Structures/Windows/window-base-diagonal.rsi
+    sprite: _Maristation/Structures/Windows/window-base-diagonal.rsi # Mari
     state: state0
   - type: Fixtures
     fixtures:
@@ -346,7 +348,7 @@
     - East
   - type: DamageVisuals
     damageOverlay:
-      sprite: Structures/Windows/cracks-diagonal.rsi
+      sprite: _Maristation/Structures/Windows/cracks-diagonal.rsi # Mari
   - type: Construction
     graph: WindowDiagonal
     node: windowDiagonal

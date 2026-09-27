@@ -69,8 +69,8 @@
     boardName: wires-board-name-firealarm
     layoutId: FireAlarm
   - type: Sprite
-    sprite: Structures/Wallmounts/fire-alarm.rsi
-    offset: 0, -0.25
+    sprite: _Maristation/Structures/Wallmounts/fire-alarm.rsi # Mari
+    #offset: 0, -0.25 # Mari - Such an offset might cause inconsistency and weird effects.
     layers:
     - state: base
       map: ["fireAlarmBase"]
@@ -108,7 +108,7 @@
   description: A fire alarm assembly. Very mild.
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/fire-alarm.rsi
+    sprite: _Maristation/Structures/Wallmounts/fire-alarm.rsi # Mari
     layers:
     - state: frame1
       map: [ "enum.ConstructionVisuals.Layer" ]

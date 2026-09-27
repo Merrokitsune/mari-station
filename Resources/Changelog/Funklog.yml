@@ -949,4 +949,15 @@
   id: 106
   time: '2026-09-25T13:25:45Z'
   url: https://github.com/funky-station/forky-station/pull/494
+# Maristation Start.
+- author: Merrokitsune
+  changes:
+  - message: Resprited some walls.
+    type: Tweak
+  - message: Resprited several wallmounts.
+    type: Tweak
+  id: 104
+  time: '2026-09-23T03:48:22Z'
+  url: https://github.com/Merrokitsune/mari-station/pull/12
+# Maristation end.
 Order: -1
