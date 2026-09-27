@@ -41,14 +41,14 @@
     price: 22
   - type: Prying
   - type: Sprite
-    sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
+    sprite: _Maristation/Objects/Tools/crowbar.rsi # Mari
   - type: Clothing
-    sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
+    sprite: _Maristation/Objects/Tools/crowbar.rsi # Mari
     quickEquip: false
     slots:
     - Belt
   - type: Item
-    sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
+    sprite: _Maristation/Objects/Tools/crowbar.rsi # Mari
     size: Small
 
 # Standard (grey) Crowbar
@@ -60,7 +60,7 @@
     state: icon
   - type: Item
     storedSprite:
-      sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
+      sprite: _Maristation/Objects/Tools/crowbar.rsi # Mari
       state: storage
 
 # Emergency (red) Crowbar
@@ -78,9 +78,12 @@
     - state: cover-icon
       color: "#990000"
   - type: Item
-    storedSprite:
-      state: red-storage
-      sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
+    sprite: _Maristation/Objects/Tools/crowbar.rsi # Mari
+    storedRotation: -45 # Mari
+    # \/ \/ Maristation Start.
+    #storedSprite:
+    #  state: red-storage
+    #  sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
     inhandVisuals:
       left:
       - state: inhand-left
@@ -108,9 +111,13 @@
     - state: cover-icon
       color: "#00621c"
   - type: Item
-    storedSprite:
-      state: green-storage
-      sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
+    sprite: _Maristation/Objects/Tools/crowbar.rsi # Mari
+    storedRotation: -45 # Mari
+    # \/ \/ Maristation Start.
+    #storedSprite:
+    #  state: green-storage
+    #  sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
+    # /\ /\ Maristation end.
     inhandVisuals:
       left:
       - state: inhand-left
@@ -138,9 +145,13 @@
     - state: cover-icon
       color: "#673800"
   - type: Item
-    storedSprite:
-      state: orange-storage
-      sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
+    sprite: _Maristation/Objects/Tools/crowbar.rsi # Mari
+    storedRotation: -45 # Mari
+    # \/ \/ Maristation Start.
+    #storedSprite:
+    #  state: orange-storage
+    #  sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
+    # /\ /\ Maristation end.
     inhandVisuals:
       left:
       - state: inhand-left
@@ -168,9 +179,13 @@
     - state: cover-icon
       color: "#968000"
   - type: Item
-    storedSprite:
-      state: yellow-storage
-      sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
+    storedRotation: -45 # Mari
+    sprite: _Maristation/Objects/Tools/crowbar.rsi # Mari
+    # \/ \/ Maristation Start.
+    #storedSprite:
+    #  state: yellow-storage
+    #  sprite: _Funkystation/Objects/Tools/crowbar.rsi # Funky
+    # /\ /\ Maristation end.
     inhandVisuals:
       left:
       - state: inhand-left
