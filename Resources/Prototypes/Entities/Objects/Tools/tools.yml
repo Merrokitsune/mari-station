@@ -312,10 +312,10 @@
     tags:
     - Powerdrill
   - type: Sprite
-    sprite: Objects/Tools/drill.rsi
+    sprite: _Maristation/Objects/Tools/drill.rsi # Mari
     state: drill_screw
   - type: Item
-    sprite: Objects/Tools/drill.rsi
+    sprite: _Maristation/Objects/Tools/drill.rsi # Mari
     size: Small
   - type: Tool
     qualities:
@@ -330,7 +330,7 @@
     entries:
       - behavior: [ Screwing ]
         sprite:
-          sprite: Objects/Tools/drill.rsi
+          sprite: _Maristation/Objects/Tools/drill.rsi # Mari
           state: drill_screw
         useSound: !type:SoundPathSpecifier
           path: /Audio/Items/drill_use.ogg
@@ -342,7 +342,7 @@
             volume: -5
       - behavior: [ Anchoring ]
         sprite:
-          sprite: Objects/Tools/drill.rsi
+          sprite: _Maristation/Objects/Tools/drill.rsi # Mari
           state: drill_bolt
         useSound: !type:SoundPathSpecifier
           path: /Audio/Items/drill_use.ogg
