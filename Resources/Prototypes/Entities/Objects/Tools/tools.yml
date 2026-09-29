@@ -13,7 +13,7 @@
     tags:
     - Wirecutter
   - type: Sprite
-    sprite: _Funkystation/Objects/Tools/wirecutters.rsi # Funky
+    sprite: _Maristation/Objects/Tools/wirecutters.rsi # Mari
     layers:
     - state: cutters
       map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -37,7 +37,18 @@
       - enum.DamageStateVisualLayers.Base:
           cutters: Rainbow
   - type: Item
-    sprite: _Funkystation/Objects/Tools/wirecutters.rsi # Funky
+    sprite: _Maristation/Objects/Tools/wirecutters.rsi # Mari
+    # \/ \/ Maristation Start.
+    inhandVisuals:
+      left:
+      - state: handle-inhand-left
+        map: [ "enum.DamageStateVisualLayers.Base" ]
+      - state: cutters-inhand-left
+      right:
+      - state: handle-inhand-right
+        map: [ "enum.DamageStateVisualLayers.Base" ]
+      - state: cutters-inhand-right
+    # /\ /\ Maristation End.
     storedRotation: -90
   - type: ToolTileCompatible
   - type: PhysicalComposition
