@@ -70,13 +70,24 @@
     tags:
     - Screwdriver
   - type: Sprite
-    sprite: _Funkystation/Objects/Tools/screwdriver.rsi # Funky
+    sprite: _Maristation/Objects/Tools/screwdriver.rsi # Mari
     layers:
       - state: screwdriver
         map: [ "enum.DamageStateVisualLayers.Base" ]
       - state: screwdriver-screwybits
   - type: Item
-    sprite: _Funkystation/Objects/Tools/screwdriver.rsi # Funky
+    sprite: _Maristation/Objects/Tools/screwdriver.rsi # Mari
+    # \/ \/ Maristation Start.
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        map: [ "enum.DamageStateVisualLayers.Base" ]
+      - state: screwybits-inhand-left
+      right:
+      - state: inhand-right
+        map: [ "enum.DamageStateVisualLayers.Base" ]
+      - state: screwybits-inhand-right
+    # /\ /\ Maristation End.
     storedRotation: -90
   - type: MeleeWeapon
     wideAnimationRotation: -90
