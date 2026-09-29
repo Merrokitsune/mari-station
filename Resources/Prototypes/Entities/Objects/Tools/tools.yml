@@ -124,12 +124,12 @@
     tags:
     - Wrench
   - type: Sprite
-    sprite: _Funkystation/Objects/Tools/wrench.rsi
+    sprite: _Maristation/Objects/Tools/wrench.rsi # Mari
     state: icon
   - type: Item
-    sprite: _Funkystation/Objects/Tools/wrench.rsi
+    sprite: _Maristation/Objects/Tools/wrench.rsi # Mari
     storedSprite:
-      sprite: _Funkystation/Objects/Tools/wrench.rsi
+      sprite: _Maristation/Objects/Tools/wrench.rsi # Mari
       state: storage
   - type: MeleeWeapon
     wideAnimationRotation: 135
