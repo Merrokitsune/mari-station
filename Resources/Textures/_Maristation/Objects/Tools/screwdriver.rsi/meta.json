@@ -25,6 +25,14 @@
       "directions": 4
     },
     {
+      "name": "screwybits-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "screwybits-inhand-right",
+      "directions": 4
+    },
+    {
       "name": "equipped-BELT",
       "directions": 4
     }
