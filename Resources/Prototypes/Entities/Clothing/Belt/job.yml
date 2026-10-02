@@ -44,7 +44,7 @@
       - HandLabeler
       - TapeRoll # Funky
   - type: ItemMapper
-    sprite: &BeltOverlay Clothing/Belt/belt_overlay.rsi
+    sprite: &BeltOverlay _Maristation/Clothing/Belt/belt_overlay.rsi # Mari
     mapLayers:
       drill:
         whitelist:
