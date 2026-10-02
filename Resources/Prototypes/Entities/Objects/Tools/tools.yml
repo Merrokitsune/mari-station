@@ -195,7 +195,7 @@
     sound:
       path: /Audio/Items/multitool_drop.ogg
   - type: Sprite
-    sprite: _Funkystation/Objects/Tools/multitool.rsi
+    sprite: _Maristation/Objects/Tools/multitool.rsi # Mari
     layers:
     - state: icon
     - state: green-unlit
@@ -203,7 +203,7 @@
   - type: Item
     size: Small
   - type: Clothing
-    sprite: _Funkystation/Objects/Tools/multitool.rsi
+    sprite: _Maristation/Objects/Tools/multitool.rsi # Mari
     quickEquip: false
     slots:
     - Belt
