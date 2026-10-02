@@ -17,13 +17,13 @@
       "name": "crowbar_red"
     },
     {
-      "name": "crowbar_red"
-    },
-    {
       "name": "cutters_blade"
     },
     {
       "name": "cutters_handle"
+    },
+    {
+      "name": "cutters_red"
     },
     {
       "name": "drill"
@@ -45,6 +45,9 @@
     },
     {
       "name": "screwdriver_head"
+    },
+    {
+      "name": "screwdriver_nuke"
     },
     {
       "name": "wrench"
