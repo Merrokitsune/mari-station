@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/0ac0d0312042741ff1404c5601c9330de0425796.",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "crowbar"
+    },
+    {
+      "name": "crowbar_cover"
+    },
+    {
+      "name": "crowbar_red"
+    },
+    {
+      "name": "crowbar_red"
+    },
+    {
+      "name": "cutters_blade"
+    },
+    {
+      "name": "cutters_handle"
+    },
+    {
+      "name": "drill"
+    },
+    {
+      "name": "jaws"
+    },
+    {
+      "name": "jaws_syn"
+    },
+    {
+      "name": "jaws_xorg"
+    },
+    {
+      "name": "multitool"
+    },
+    {
+      "name": "screwdriver"
+    },
+    {
+      "name": "screwdriver_head"
+    },
+    {
+      "name": "wrench"
+    }
+  ]
+}
