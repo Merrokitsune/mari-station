@@ -44,7 +44,7 @@
       - HandLabeler
       - TapeRoll # Funky
   - type: ItemMapper
-    sprite: &BeltOverlay _Maristation/Clothing/Belt/belt_overlay.rsi # Mari
+    sprite: &BeltOverlay Clothing/Belt/belt_overlay.rsi
     mapLayers:
       drill:
         whitelist:
@@ -94,6 +94,8 @@
     tags:
     - UtilityBelt
     - WhitelistChameleon
+  - type: ItemMapper # Mari
+    sprite: _Maristation/Clothing/Belt/belt_overlay.rsi # Mari
 
 - type: entity
   parent: BaseClothingBeltEngineering
