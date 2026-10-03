@@ -5,7 +5,6 @@
     type: Add
   id: 1
   time: '2026-08-16T00:00:00.0000000+00:00'
-# Maristation Start.
 - author: Merrokitsune
   changes:
   - message: Replaced branding.
@@ -17,7 +16,6 @@
   id: 1
   time: '2026-09-19T04:48:36Z'
   url: https://github.com/Merrokitsune/mari-station/pull/7
-# Maristation End.
 - author: AraiMaia
   changes:
   - message: Hitting a turn in a disposal pipe now hurts you.
@@ -25,7 +23,6 @@
   id: 2
   time: '2026-08-17T06:08:22Z'
   url: https://github.com/funky-station/forky-station/pull/248
-# Maristation Start.
 - author: Merrokitsune
   changes:
   - message: Changed floor sprites.
@@ -37,7 +34,6 @@
   id: 2
   time: '2026-09-21T05:23:25Z'
   url: https://github.com/Merrokitsune/mari-station/pull/9
-# Maristation End.
 - author: ClocksAreWorthy
   changes:
   - message: Added a Lectern!
@@ -900,7 +896,6 @@
   id: 102
   time: '2026-09-22T16:40:17Z'
   url: https://github.com/funky-station/forky-station/pull/469
-# Maristation Start.
 - author: Merrokitsune
   changes:
   - message: Fixed errors in locale that caused duplicate locales.
@@ -915,7 +910,6 @@
   id: 103
   time: '2026-09-22T19:06:51Z'
   url: https://github.com/Merrokitsune/mari-station/pull/14
-# Maristation End.
 - author: mkanke
   changes:
   - message: Added 5 prefilled cardboard boxes for mappers
@@ -930,6 +924,15 @@
   id: 104
   time: '2026-09-23T08:01:25Z'
   url: https://github.com/funky-station/forky-station/pull/276
+- author: Merrokitsune
+  changes:
+  - message: Resprited some walls.
+    type: Tweak
+  - message: Resprited several wallmounts.
+    type: Tweak
+  id: 104
+  time: '2026-09-23T03:48:22Z'
+  url: https://github.com/Merrokitsune/mari-station/pull/12
 - author: Sere and Frogoo
   changes:
   - message: Add Gorilla Crunch, a new gorilla-themed cereal, to hacked ChefVend and
@@ -949,15 +952,11 @@
   id: 106
   time: '2026-09-25T13:25:45Z'
   url: https://github.com/funky-station/forky-station/pull/494
-# Maristation Start.
 - author: Merrokitsune
   changes:
-  - message: Resprited some walls.
+  - message: Resprited tools and utility belt.
     type: Tweak
-  - message: Resprited several wallmounts.
-    type: Tweak
-  id: 104
-  time: '2026-09-23T03:48:22Z'
-  url: https://github.com/Merrokitsune/mari-station/pull/12
-# Maristation end.
+  id: 107
+  time: '2026-10-03T14:57:18Z'
+  url: https://github.com/Merrokitsune/mari-station/pull/16
 Order: -1
