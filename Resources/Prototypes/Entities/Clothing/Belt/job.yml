@@ -87,9 +87,9 @@
   description: Can hold various things.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/utility.rsi
+    sprite: _Maristation/Clothing/Belt/utility.rsi # Mari
   - type: Clothing
-    sprite: Clothing/Belt/utility.rsi
+    sprite: _Maristation/Clothing/Belt/utility.rsi # Mari
   - type: Tag
     tags:
     - UtilityBelt
