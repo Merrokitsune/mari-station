@@ -255,7 +255,7 @@
   variants: 4
   footstepSounds:
     collection: FootstepHull
-  itemDrop: FloorTileItemTechmaintSteelPlastic
+  itemDrop: FloorTileItemTechmaintPlastic
 
 ### DARK
 - type: tile

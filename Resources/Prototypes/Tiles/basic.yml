@@ -120,7 +120,7 @@
   name: tiles-plastic-floor
   sprite: /Textures/_Maristation/Tiles/Basic/Gray/gray-plastic.png # Mari
   variants: 4
-  itemDrop: FloorTileItemSteelPlastic # Mari
+  itemDrop: FloorTileItemPlastic
 
 - type: tile
   id: FloorSteelDamaged
