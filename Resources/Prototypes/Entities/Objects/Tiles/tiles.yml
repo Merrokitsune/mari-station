@@ -490,7 +490,13 @@
   name: plastic floor
   components:
   - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari
     state: steel-plastic
+  # \/\/ Maristation Start
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: steel-plastic
+  # /\/\ Maristation End
   - type: FloorTile
     outputs:
     - Plating
@@ -504,7 +510,13 @@
   name: dark plastic floor
   components:
   - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari
     state: dark-plastic
+  # \/\/ Maristation Start
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: dark-plastic
+  # /\/\ Maristation End
   - type: FloorTile
     outputs:
     - Plating
@@ -518,7 +530,13 @@
   name: white plastic floor
   components:
   - type: Sprite
+    sprite: _Maristation/Objects/Tiles/tile.rsi # Mari
     state: white-plastic
+  # \/\/ Maristation Start
+  - type: Item
+    sprite: _Maristation/Objects/Tiles/tile.rsi
+    heldPrefix: dark-plastic
+  # /\/\ Maristation End
   - type: FloorTile
     outputs:
     - Plating

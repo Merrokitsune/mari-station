@@ -199,30 +199,11 @@
 
 #### STEEL / GRAY
 
-- type: entity
-  name: plastic tile
-  parent: FloorTileItemBase
-  id: FloorTileItemSteelPlastic
-  components:
-  - type: Sprite
-    sprite: _Maristation/Objects/Tiles/tile.rsi
-    state: steel-plastic
-  - type: Item
-    sprite: _Maristation/Objects/Tiles/tile.rsi
-    heldPrefix: steel-plastic
-  - type: FloorTile
-    outputs:
-      - Plating
-      - FloorPlastic
-  - type: Stack
-    stackType: FloorTileSteelPlastic
-  #- type: Construction # Mari - Not yet implemented.
-  #  graph: TileSteelPlastic # Mari - Not yet implemented.
-  #  node: steeltileplastic # Mari - Not yet implemented.
+# id: FloorTileItemSteelPlastic # Already exists as FlooTileItemPlastic
 
 - type: entity
   name: plastic offset tile
-  parent: FloorTileItemSteelPlastic
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelOffsetPlastic
   components:
   - type: Sprite
@@ -236,7 +217,7 @@
 
 - type: entity
   name: plastic diagonal tile
-  parent: FloorTileItemSteelPlastic
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelDiagonalPlastic
   components:
   - type: Sprite
@@ -250,7 +231,7 @@
 
 - type: entity
   name: plastic diagonal mini tile
-  parent: FloorTileItemSteelPlastic
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelDiagonalMiniPlastic
   components:
   - type: Sprite
@@ -264,7 +245,7 @@
 
 - type: entity
   name: plastic mono tile
-  parent: FloorTileItemSteelPlastic
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelMonoPlastic
   components:
   - type: Sprite
@@ -278,7 +259,7 @@
 
 - type: entity
   name: plastic mini tile
-  parent: FloorTileItemSteel
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelMiniPlastic
   components:
   - type: Sprite
@@ -292,7 +273,7 @@
 
 - type: entity
   name: plastic pavement tile
-  parent: FloorTileItemSteel
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelPavementPlastic
   components:
   - type: Sprite
@@ -306,7 +287,7 @@
 
 - type: entity
   name: plastic vertical pavement tile
-  parent: FloorTileItemSteel
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelPavementVerticalPlastic
   components:
   - type: Sprite
@@ -320,7 +301,7 @@
 
 - type: entity
   name: plastic herringbone tile
-  parent: FloorTileItemSteelPlastic
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelHerringbonePlastic
   components:
   - type: Sprite
@@ -333,7 +314,7 @@
     stackType: FloorTileSteelHerringbonePlastic
 
 - type: entity
-  parent: FloorTileItemSteelPlastic
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelHorizontalSlatsBorderedPlastic
   name: plastic horizontal bordered slat tile
   components:
@@ -347,7 +328,7 @@
     stackType: FloorTileSteelHorizontalSlatsBorderedPlastic
 
 - type: entity
-  parent: FloorTileItemSteelPlastic
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelVerticalSlatsBorderedPlastic
   name: plastic vertical bordered slat tile
   components:
@@ -361,7 +342,7 @@
     stackType: FloorTileSteelVerticalSlatsBorderedPlastic
 
 - type: entity
-  parent: FloorTileItemSteelPlastic
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelHorizontalSlatsContinuousPlastic
   name: plastic horizontal continuous slat tile
   components:
@@ -375,7 +356,7 @@
     stackType: FloorTileSteelHorizontalSlatsContinuousPlastic
 
 - type: entity
-  parent: FloorTileItemSteelPlastic
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelVerticalSlatsContinuousPlastic
   name: plastic vertical continuous slat tile
   components:
@@ -389,7 +370,7 @@
     stackType: FloorTileSteelVerticalSlatsContinuousPlastic
 
 - type: entity
-  parent: FloorTileItemSteel
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelSquigglyPlastic
   name: plastic horizontal squiggly tile
   components:
@@ -403,7 +384,7 @@
     stackType: FloorTileSteelSquigglyPlastic
 
 - type: entity
-  parent: FloorTileItemSteel
+  parent: FloorTileItemPlastic
   id: FloorTileItemSteelSquigglyVerticalPlastic
   name: plastic vertical squiggly tile
   components:
@@ -417,8 +398,8 @@
     stackType: FloorTileSteelSquigglyVerticalPlastic
 
 - type: entity
-  parent: FloorTileItemBase
-  id: FloorTileItemTechmaintSteelPlastic
+  parent: FloorTileItemPlastic
+  id: FloorTileItemTechmaintPlastic
   name: plastic maint floor
   components:
   - type: Sprite
@@ -436,26 +417,7 @@
 
 #### DARK
 
-- type: entity
-  name: dark plastic tile
-  parent: FloorTileItemBase
-  id: FloorTileItemDarkPlastic
-  components:
-  - type: Sprite
-    sprite: _Maristation/Objects/Tiles/tile.rsi
-    state: dark-plastic
-  - type: Item
-    sprite: _Maristation/Objects/Tiles/tile.rsi
-    heldPrefix: dark-plastic
-  - type: FloorTile
-    outputs:
-      - Plating
-      - FloorDarkPlastic
-  - type: Stack
-    stackType: FloorTileDarkPlastic
-  #- type: Construction # Mari - Not yet implemented.
-  #  graph: TileDarkPlastic # Mari - Not yet implemented.
-  #  node: darktileplastic # Mari - Not yet implemented.
+# id: FloorTileItemDarkPlastic # Already Exists.
 
 - type: entity
   name: dark plastic offset tile
@@ -515,7 +477,7 @@
 
 - type: entity
   name: dark plastic mini tile
-  parent: FloorTileItemDark
+  parent: FloorTileItemDarkPlastic
   id: FloorTileItemDarkMiniPlastic
   components:
   - type: Sprite
@@ -529,7 +491,7 @@
 
 - type: entity
   name: dark plastic pavement tile
-  parent: FloorTileItemDark
+  parent: FloorTileItemDarkPlastic
   id: FloorTileItemDarkPavementPlastic
   components:
   - type: Sprite
@@ -543,7 +505,7 @@
 
 - type: entity
   name: dark plastic vertical pavement tile
-  parent: FloorTileItemDark
+  parent: FloorTileItemDarkPlastic
   id: FloorTileItemDarkPavementVerticalPlastic
   components:
   - type: Sprite
@@ -673,26 +635,7 @@
 
 #### WHITE
 
-- type: entity
-  name: white plastic tile
-  parent: FloorTileItemBase
-  id: FloorTileItemWhitePlastic
-  components:
-  - type: Sprite
-    sprite: _Maristation/Objects/Tiles/tile.rsi
-    state: white-plastic
-  - type: Item
-    sprite: _Maristation/Objects/Tiles/tile.rsi
-    heldPrefix: white-plastic
-  - type: FloorTile
-    outputs:
-      - Plating
-      - FloorWhitePlastic
-  - type: Stack
-    stackType: FloorTileWhitePlastic
-  #- type: Construction # Mari - Not yet implemented.
-  #  graph: TileWhitePlastic # Mari - Not yet implemented.
-  #  node: whitetileplastic # Mari - Not yet implemented.
+# id: FloorTileItemWhitePlastic # Already Exists.
 
 - type: entity
   name: white plastic offset tile
@@ -752,7 +695,7 @@
 
 - type: entity
   name: white plastic mini tile
-  parent: FloorTileItemWhite
+  parent: FloorTileItemWhitePlastic
   id: FloorTileItemWhiteMiniPlastic
   components:
   - type: Sprite
@@ -766,7 +709,7 @@
 
 - type: entity
   name: white plastic pavement tile
-  parent: FloorTileItemWhite
+  parent: FloorTileItemWhitePlastic
   id: FloorTileItemWhitePavementPlastic
   components:
   - type: Sprite
@@ -780,7 +723,7 @@
 
 - type: entity
   name: white plastic vertical pavement tile
-  parent: FloorTileItemWhite
+  parent: FloorTileItemWhitePlastic
   id: FloorTileItemWhitePavementVerticalPlastic
   components:
   - type: Sprite

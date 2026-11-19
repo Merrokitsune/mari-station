@@ -24,11 +24,13 @@
   spawn: FloorTileItemWhiteSquigglyVertical
 
 #### PLASTIC
-- type: stack
-  parent: BaseTileStack
-  id: FloorTileWhitePlastic
-  name: stack-white-steel-tile-plastic
-  spawn: FloorTileItemWhitePlastic
+# \/ \/ ALREADY EXISTS IN /Prototype/Stacks/Tiles/steel_white.yml
+#- type: stack
+#  parent: BaseTileStack
+#  id: FloorTileWhitePlastic
+#  name: stack-white-steel-tile-plastic
+#  spawn: FloorTileItemWhitePlastic
+# /\ /\ ALREADY EXISTS IN /Prototype/Stacks/Tiles/steel_white.yml
 
 - type: stack
   parent: BaseTileStack
