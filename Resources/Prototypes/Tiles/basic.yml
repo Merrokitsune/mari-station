@@ -220,7 +220,7 @@
   variants: 4
   footstepSounds:
     collection: FootstepTile
-  itemDrop: FloorTileItemWhitePlastic # Mari
+  itemDrop: FloorTileItemWhitePlastic
 
 #Funky start - More white floors
 - type: tile
@@ -340,7 +340,7 @@
   variants: 4
   footstepSounds:
     collection: FootstepTile
-  itemDrop: FloorTileItemDarkPlastic # Mari
+  itemDrop: FloorTileItemDarkPlastic
 
 - type: tile
   id: FloorTechMaintDark

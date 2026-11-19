@@ -46,8 +46,8 @@
         - None
         layer:
         - TabletopMachineLayer
-  - type: PlacementReplacement
-    key: lights
+#  - type: PlacementReplacement
+#    key: lights Funky extra wall items
 
 - type: entity
   abstract: true
