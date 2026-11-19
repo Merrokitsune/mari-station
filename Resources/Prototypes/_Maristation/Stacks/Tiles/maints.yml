@@ -24,7 +24,7 @@
   parent: BaseTileStack
   id: FloorTileSteelMaintPlastic
   name: stack-steel-maint-floor-plastic
-  spawn: FloorTileItemTechmaintSteelPlastic
+  spawn: FloorTileItemTechmaintPlastic
 
 - type: stack
   parent: BaseTileStack
